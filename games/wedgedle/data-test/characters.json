@@ -1,0 +1,50 @@
+[
+  {
+    "id": "darth_vader",
+    "name": "Darth Vader",
+    "aliases": ["Vader"],
+    "image": "data/images/darth_vader.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": ["Empire", "Sith"],
+    "crew_member": true,
+    "leader": true,
+    "release_date": 2016
+  },
+  {
+    "id": "admiral_piett",
+    "name": "Admiral Piett",
+    "aliases": ["Piett"],
+    "image": "data/images/admiral_piett.png",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": ["Empire", "Imperial Trooper"],
+    "crew_member": true,
+    "leader": true,
+    "release_date": 2020
+  },
+  {
+    "id": "luke_skywalker_farmboy",
+    "name": "Luke Skywalker (Farmboy)",
+    "aliases": ["farmboy luke"],
+    "image": "data/images/luke_skywalker_farmboy.png",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": ["Rebel"],
+    "crew_member": false,
+    "leader": true,
+    "release_date": 2016
+  },
+  {
+    "id": "juhani",
+    "name": "Juhani",
+    "aliases": [],
+    "image": "data/images/juhani.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": ["Old Republic", "Jedi"],
+    "crew_member": false,
+    "leader": false,
+    "release_date": 2018
+  }
+]

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wedgedle</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/wedgedle_styles.css') }}">
+    <!-- <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet"> -->
+  </head>
+
+  <body>
+    <div id="game-info">
+      <button id="help-button" class="btn">?</button>
+    </div>
+    <h1 id="game-title">Wedgedle</h1>
+    
+
+    <div class="input-wrapper">
+      <div id="input-elems">
+        <div id="input-border">
+            <input id="guess-input" type="text" placeholder="Enter character name"/>
+          <button id="guess-button" class="btn">>>></button>
+        </div>
+        
+        <div id="guess-list" class="hidden"></div>
+      </div>
+    </div>
+    
+    <div id="game-container">
+      <div id="cat-list" class="header-row hidden">
+        <div class="header-box">Name</div>
+        <div class="header-box">Alignment</div>
+        <div class="header-box">Ship</div>
+        <div class="header-box">Release Era</div>
+        <div class="header-box">Faction(s)</div>
+        <div class="header-box">Leader</div>
+        <div class="header-box">Role</div>
+      </div>
+
+      <div id="guess-container"></div>
+    </div>
+
+    <!-- Win Loss Overlay -->
+    <div id="endgame-overlay" class="hidden">
+      <div id="endgame-modal">
+        <button id="endgame-close-btn" class="btn">✕</button>
+        <h2 id="endgame-title"></h2>
+        <div id="endgame-guess-cnt" class="endgame-msg"></div>
+        <div id="endgame-answer"></div>
+        <div class="reset-timer-wrapper">
+          <div class="reset-timer-text">Next Character in:</div>
+          <div id="end-timer" class="reset-timer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Help Information -->
+    <div id="help-overlay" class="hidden">
+      <div id="help-modal">
+        <button id="help-close-btn" class="btn">✕</button>
+
+        <h3 id="help-title" class="help-header">How to play</h3>
+        <p id="help-description" class="help-desc"></p>
+        
+        <div class="reset-timer-wrapper">
+          <div class="reset-timer-text">Next Character in:</div>
+          <div id="help-timer" class="reset-timer"></div>
+        </div>
+        
+        <h4 id="help-properties" class="help-header">Properties</h4>
+        <div id="help-subtext"></div>
+
+        <div id="help-feedback" class="help-header">Feedback</div>
+        <div id="help-color-grid">
+          <div class="help-color-square">
+            <div class="help-color-example correct"></div>
+            <div class="help-color-desc">Correct</div>
+          </div>
+          
+          <div class="help-color-square">
+            <div class="help-color-example partial"></div>
+            <div class="help-color-desc">Partial</div>
+          </div>
+          
+          <div class="help-color-square">
+            <div class="help-color-example incorrect"></div>
+            <div class="help-color-desc">Incorrect</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const GUESS_URL = "{{ url_for('wedgedle.guess') }}";
+      const SEARCH_URL = "{{ url_for('wedgedle.search') }}";
+      const ANSWER_URL = "{{ url_for('wedgedle.answer') }}";
+      const IMAGE_URL = "{{ url_for('wedgedle.images') }}";
+
+      const IMAGE_PRELOAD = "{{ url_for('static', filename='data/characters.json') }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/wedgedle_script.js') }}"></script>
+
+  </body>
+
+</html>

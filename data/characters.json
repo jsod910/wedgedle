@@ -1,0 +1,4788 @@
+[
+  {
+    "id": "0_0_0",
+    "name": "0-0-0",
+    "aliases": [],
+    "image": "images/0_0_0.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "4_lom",
+    "name": "4-LOM",
+    "aliases": [],
+    "image": "images/4_lom.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Ships and Bounties"
+  },
+  {
+    "id": "50r_t",
+    "name": "50R-T",
+    "aliases": [],
+    "image": "images/50r_t.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "arc_trooper",
+    "name": "ARC Trooper",
+    "aliases": [],
+    "image": "images/arc_trooper.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "501st",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "aayla_secura",
+    "name": "Aayla Secura",
+    "aliases": [],
+    "image": "images/aayla_secura.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "admiral_ackbar",
+    "name": "Admiral Ackbar",
+    "aliases": [],
+    "image": "images/admiral_ackbar.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "admiral_piett",
+    "name": "Admiral Piett",
+    "aliases": [],
+    "image": "images/admiral_piett.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "admiral_raddus",
+    "name": "Admiral Raddus",
+    "aliases": [],
+    "image": "images/admiral_raddus.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "admiral_trench",
+    "name": "Admiral Trench",
+    "aliases": [],
+    "image": "images/admiral_trench.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ahsoka_tano",
+    "name": "Ahsoka Tano",
+    "aliases": [],
+    "image": "images/ahsoka_tano.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Spectre",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Apprentices"
+  },
+  {
+    "id": "ahsoka_tano_fulcrum",
+    "name": "Ahsoka Tano (Fulcrum)",
+    "aliases": [],
+    "image": "images/ahsoka_tano_fulcrum.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Spectre",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ahsoka_tano_snips",
+    "name": "Ahsoka Tano (Snips)",
+    "aliases": [],
+    "image": "images/ahsoka_tano_snips.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "501st",
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "amilyn_holdo",
+    "name": "Amilyn Holdo",
+    "aliases": [],
+    "image": "images/amilyn_holdo.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "asajj_ventress",
+    "name": "Asajj Ventress",
+    "aliases": [],
+    "image": "images/asajj_ventress.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Nightsister",
+      "Separatist",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "asajj_ventress_dark_disciple",
+    "name": "Asajj Ventress (Dark Disciple)",
+    "aliases": [],
+    "image": "images/asajj_ventress_dark_disciple.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Nightsister",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "aurra_sing",
+    "name": "Aurra Sing",
+    "aliases": [],
+    "image": "images/aurra_sing.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "b1_battle_droid",
+    "name": "B1 Battle Droid",
+    "aliases": [],
+    "image": "images/b1_battle_droid.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "b2_super_battle_droid",
+    "name": "B2 Super Battle Droid",
+    "aliases": [],
+    "image": "images/b2_super_battle_droid.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "bb_8",
+    "name": "BB-8",
+    "aliases": [],
+    "image": "images/bb_8.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Resistance"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "bt_1",
+    "name": "BT-1",
+    "aliases": [],
+    "image": "images/bt_1.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "barriss_offee",
+    "name": "Barriss Offee",
+    "aliases": [],
+    "image": "images/barriss_offee.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "bastila_shan",
+    "name": "Bastila Shan",
+    "aliases": [],
+    "image": "images/bastila_shan.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jedi",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "bastila_shan_fallen",
+    "name": "Bastila Shan (Fallen)",
+    "aliases": [],
+    "image": "images/bastila_shan_fallen.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "batcher",
+    "name": "Batcher",
+    "aliases": [],
+    "image": "images/batcher.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bad Batch"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Cavalry"
+  },
+  {
+    "id": "baylan_skoll",
+    "name": "Baylan Skoll",
+    "aliases": [],
+    "image": "images/baylan_skoll.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Mercenary",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "baze_malbus",
+    "name": "Baze Malbus",
+    "aliases": [],
+    "image": "images/baze_malbus.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ben_solo",
+    "name": "Ben Solo",
+    "aliases": [],
+    "image": "images/ben_solo.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "biggs_darklighter",
+    "name": "Biggs Darklighter",
+    "aliases": [],
+    "image": "images/biggs_darklighter.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "bistan",
+    "name": "Bistan",
+    "aliases": [],
+    "image": "images/bistan.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "bo_katan_mandalor",
+    "name": "Bo-Katan (Mand'alor)",
+    "aliases": [],
+    "image": "images/bo_katan_mandalor.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "bo_katan_kryze",
+    "name": "Bo-Katan Kryze",
+    "aliases": [],
+    "image": "images/bo_katan_kryze.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "boba_fett",
+    "name": "Boba Fett",
+    "aliases": [],
+    "image": "images/boba_fett.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "boba_fett_scion_of_jango",
+    "name": "Boba Fett, Scion of Jango",
+    "aliases": [],
+    "image": "images/boba_fett_scion_of_jango.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "bodhi_rook",
+    "name": "Bodhi Rook",
+    "aliases": [],
+    "image": "images/bodhi_rook.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "boss_nass",
+    "name": "Boss Nass",
+    "aliases": [],
+    "image": "images/boss_nass.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Gungan"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "bossk",
+    "name": "Bossk",
+    "aliases": [],
+    "image": "images/bossk.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "boushh_leia_organa",
+    "name": "Boushh (Leia Organa)",
+    "aliases": [],
+    "image": "images/boushh_leia_organa.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "brutus",
+    "name": "Brutus",
+    "aliases": [],
+    "image": "images/brutus.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Piracy"
+  },
+  {
+    "id": "c_3po",
+    "name": "C-3PO",
+    "aliases": [],
+    "image": "images/c_3po.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Galactic Republic",
+      "Rebel",
+      "Resistance"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "cc_1119_appo",
+    "name": "CC-1119 \"Appo\"",
+    "aliases": [],
+    "image": "images/cc_1119_appo.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Clone Trooper",
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "cc_2224_cody",
+    "name": "CC-2224 \"Cody\"",
+    "aliases": [],
+    "image": "images/cc_2224_cody.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ct_21_0408_echo",
+    "name": "CT-21-0408 \"Echo\"",
+    "aliases": [],
+    "image": "images/ct_21_0408_echo.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "501st",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ct_5555_fives",
+    "name": "CT-5555 \"Fives\"",
+    "aliases": [],
+    "image": "images/ct_5555_fives.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "501st",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ct_7567_rex",
+    "name": "CT-7567 \"Rex\"",
+    "aliases": [],
+    "image": "images/ct_7567_rex.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "501st",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "cx_2",
+    "name": "CX-2",
+    "aliases": [],
+    "image": "images/cx_2.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Clone Trooper",
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "cad_bane",
+    "name": "Cad Bane",
+    "aliases": [],
+    "image": "images/cad_bane.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "cal_kestis",
+    "name": "Cal Kestis",
+    "aliases": [],
+    "image": "images/cal_kestis.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "canderous_ordo",
+    "name": "Canderous Ordo",
+    "aliases": [],
+    "image": "images/canderous_ordo.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Mercenary",
+      "Old Republic",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_drogan",
+    "name": "Captain Drogan",
+    "aliases": [],
+    "image": "images/captain_drogan.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_enoch",
+    "name": "Captain Enoch",
+    "aliases": [],
+    "image": "images/captain_enoch.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Imperial Remnant"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_han_solo",
+    "name": "Captain Han Solo",
+    "aliases": [],
+    "image": "images/captain_han_solo.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_ithano",
+    "name": "Captain Ithano",
+    "aliases": [],
+    "image": "images/captain_ithano.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Piracy"
+  },
+  {
+    "id": "captain_phasma",
+    "name": "Captain Phasma",
+    "aliases": [],
+    "image": "images/captain_phasma.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_rex",
+    "name": "Captain Rex",
+    "aliases": [],
+    "image": "images/captain_rex.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Clone Trooper",
+      "Phoenix",
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "captain_silvo",
+    "name": "Captain Silvo",
+    "aliases": [],
+    "image": "images/captain_silvo.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Pirate",
+      "Scoundrel",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Piracy"
+  },
+  {
+    "id": "captain_tarpals",
+    "name": "Captain Tarpals",
+    "aliases": [],
+    "image": "images/captain_tarpals.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Gungan"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "cara_dune",
+    "name": "Cara Dune",
+    "aliases": [],
+    "image": "images/cara_dune.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Mercenary",
+      "Rebel",
+      "Rebel Fighter",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "carth_onasi",
+    "name": "Carth Onasi",
+    "aliases": [],
+    "image": "images/carth_onasi.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Old Republic"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "cassian_andor",
+    "name": "Cassian Andor",
+    "aliases": [],
+    "image": "images/cassian_andor.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "cere_junda",
+    "name": "Cere Junda",
+    "aliases": [],
+    "image": "images/cere_junda.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Scoundrel",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "chewbacca",
+    "name": "Chewbacca",
+    "aliases": [],
+    "image": "images/chewbacca.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Scoundrel",
+      "Smuggler",
+      "Wookiee"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "chief_chirpa",
+    "name": "Chief Chirpa",
+    "aliases": [],
+    "image": "images/chief_chirpa.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "chief_nebit",
+    "name": "Chief Nebit",
+    "aliases": [],
+    "image": "images/chief_nebit.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jawa"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "chirrut_imwe",
+    "name": "Chirrut Îmwe",
+    "aliases": [],
+    "image": "images/chirrut_imwe.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "chopper",
+    "name": "Chopper",
+    "aliases": [],
+    "image": "images/chopper.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Phoenix",
+      "Rebel",
+      "Spectre"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "clone_sergeant_phase_i",
+    "name": "Clone Sergeant - Phase I",
+    "aliases": [],
+    "image": "images/clone_sergeant_phase_i.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "clone_wars_chewbacca",
+    "name": "Clone Wars Chewbacca",
+    "aliases": [],
+    "image": "images/clone_wars_chewbacca.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Scoundrel",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "colonel_starck",
+    "name": "Colonel Starck",
+    "aliases": [],
+    "image": "images/colonel_starck.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "commander_ahsoka_tano",
+    "name": "Commander Ahsoka Tano",
+    "aliases": [],
+    "image": "images/commander_ahsoka_tano.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Scoundrel",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "commander_luke_skywalker",
+    "name": "Commander Luke Skywalker",
+    "aliases": [],
+    "image": "images/commander_luke_skywalker.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "coruscant_underworld_police",
+    "name": "Coruscant Underworld Police",
+    "aliases": [],
+    "image": "images/coruscant_underworld_police.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "count_dooku",
+    "name": "Count Dooku",
+    "aliases": [],
+    "image": "images/count_dooku.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Separatist",
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "crosshair_scarred",
+    "name": "Crosshair (Scarred)",
+    "aliases": [],
+    "image": "images/crosshair_scarred.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bad Batch"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Cavalry"
+  },
+  {
+    "id": "dark_trooper",
+    "name": "Dark Trooper",
+    "aliases": [],
+    "image": "images/dark_trooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Empire",
+      "Imperial Remnant",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "dark_trooper_moff_gideon",
+    "name": "Dark Trooper Moff Gideon",
+    "aliases": [],
+    "image": "images/dark_trooper_moff_gideon.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Imperial Remnant"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_bane",
+    "name": "Darth Bane",
+    "aliases": [],
+    "image": "images/darth_bane.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_malak",
+    "name": "Darth Malak",
+    "aliases": [],
+    "image": "images/darth_malak.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_malgus",
+    "name": "Darth Malgus",
+    "aliases": [],
+    "image": "images/darth_malgus.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_maul",
+    "name": "Darth Maul",
+    "aliases": [],
+    "image": "images/darth_maul.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_nihilus",
+    "name": "Darth Nihilus",
+    "aliases": [],
+    "image": "images/darth_nihilus.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_revan",
+    "name": "Darth Revan",
+    "aliases": [],
+    "image": "images/darth_revan.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_sidious",
+    "name": "Darth Sidious",
+    "aliases": [],
+    "image": "images/darth_sidious.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_sion",
+    "name": "Darth Sion",
+    "aliases": [],
+    "image": "images/darth_sion.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_talon",
+    "name": "Darth Talon",
+    "aliases": [],
+    "image": "images/darth_talon.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_traya",
+    "name": "Darth Traya",
+    "aliases": [],
+    "image": "images/darth_traya.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_vader",
+    "name": "Darth Vader",
+    "aliases": [],
+    "image": "images/darth_vader.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "darth_vader_duels_end",
+    "name": "Darth Vader (Duel's End)",
+    "aliases": [],
+    "image": "images/darth_vader_duels_end.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "dash_rendar",
+    "name": "Dash Rendar",
+    "aliases": [],
+    "image": "images/dash_rendar.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "dathcha",
+    "name": "Dathcha",
+    "aliases": [],
+    "image": "images/dathcha.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jawa"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "death_trooper",
+    "name": "Death Trooper",
+    "aliases": [],
+    "image": "images/death_trooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Imperial Remnant",
+      "Imperial Trooper"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "death_trooper_peridea",
+    "name": "Death Trooper (Peridea)",
+    "aliases": [],
+    "image": "images/death_trooper_peridea.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Imperial Remnant",
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "dengar",
+    "name": "Dengar",
+    "aliases": [],
+    "image": "images/dengar.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "depa_billaba",
+    "name": "Depa Billaba",
+    "aliases": [],
+    "image": "images/depa_billaba.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "director_krennic",
+    "name": "Director Krennic",
+    "aliases": [],
+    "image": "images/director_krennic.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "disguised_clone_trooper",
+    "name": "Disguised Clone Trooper",
+    "aliases": [],
+    "image": "images/disguised_clone_trooper.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Clone Trooper",
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "doctor_aphra",
+    "name": "Doctor Aphra",
+    "aliases": [],
+    "image": "images/doctor_aphra.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "droideka",
+    "name": "Droideka",
+    "aliases": [],
+    "image": "images/droideka.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "aliases": [],
+    "image": "images/echo.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Bad Batch",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "eeth_koth",
+    "name": "Eeth Koth",
+    "aliases": [],
+    "image": "images/eeth_koth.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "eighth_brother",
+    "name": "Eighth Brother",
+    "aliases": [],
+    "image": "images/eighth_brother.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "embo",
+    "name": "Embo",
+    "aliases": [],
+    "image": "images/embo.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "emperor_palpatine",
+    "name": "Emperor Palpatine",
+    "aliases": [],
+    "image": "images/emperor_palpatine.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "enfys_nest",
+    "name": "Enfys Nest",
+    "aliases": [],
+    "image": "images/enfys_nest.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Pirate",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ewok_elder",
+    "name": "Ewok Elder",
+    "aliases": [],
+    "image": "images/ewok_elder.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ewok_scout",
+    "name": "Ewok Scout",
+    "aliases": [],
+    "image": "images/ewok_scout.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ezra_bridger",
+    "name": "Ezra Bridger",
+    "aliases": [],
+    "image": "images/ezra_bridger.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jedi",
+      "Phoenix",
+      "Rebel"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ezra_bridger_exile",
+    "name": "Ezra Bridger (Exile)",
+    "aliases": [],
+    "image": "images/ezra_bridger_exile.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jedi",
+      "Spectre"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "fennec_shand",
+    "name": "Fennec Shand",
+    "aliases": [],
+    "image": "images/fennec_shand.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "fifth_brother",
+    "name": "Fifth Brother",
+    "aliases": [],
+    "image": "images/fifth_brother.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "aliases": [],
+    "image": "images/finn.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "first_order_executioner",
+    "name": "First Order Executioner",
+    "aliases": [],
+    "image": "images/first_order_executioner.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "first_order_officer",
+    "name": "First Order Officer",
+    "aliases": [],
+    "image": "images/first_order_officer.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "first_order_sf_tie_pilot",
+    "name": "First Order SF TIE Pilot",
+    "aliases": [],
+    "image": "images/first_order_sf_tie_pilot.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "first_order_stormtrooper",
+    "name": "First Order Stormtrooper",
+    "aliases": [],
+    "image": "images/first_order_stormtrooper.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "first_order_tie_pilot",
+    "name": "First Order TIE Pilot",
+    "aliases": [],
+    "image": "images/first_order_tie_pilot.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "gamorrean_guard",
+    "name": "Gamorrean Guard",
+    "aliases": [],
+    "image": "images/gamorrean_guard.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Hutt Cartel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "gar_saxon",
+    "name": "Gar Saxon",
+    "aliases": [],
+    "image": "images/gar_saxon.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Mandalorian"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "garazeb_zeb_orrelios",
+    "name": "Garazeb \"Zeb\" Orrelios",
+    "aliases": [],
+    "image": "images/garazeb_zeb_orrelios.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel",
+      "Phoenix"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "general_grievous",
+    "name": "General Grievous",
+    "aliases": [],
+    "image": "images/general_grievous.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "general_hux",
+    "name": "General Hux",
+    "aliases": [],
+    "image": "images/general_hux.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "First Order"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "general_kenobi",
+    "name": "General Kenobi",
+    "aliases": [],
+    "image": "images/general_kenobi.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "general_skywalker",
+    "name": "General Skywalker",
+    "aliases": [],
+    "image": "images/general_skywalker.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "501st",
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "general_syndulla",
+    "name": "General Syndulla",
+    "aliases": [],
+    "image": "images/general_syndulla.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Spectre"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Apprentices"
+  },
+  {
+    "id": "general_veers",
+    "name": "General Veers",
+    "aliases": [],
+    "image": "images/general_veers.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "geonosian_brood_alpha",
+    "name": "Geonosian Brood Alpha",
+    "aliases": [],
+    "image": "images/geonosian_brood_alpha.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Geonosian",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "geonosian_soldier",
+    "name": "Geonosian Soldier",
+    "aliases": [],
+    "image": "images/geonosian_soldier.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Geonosian",
+      "Separatist"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "geonosian_spy",
+    "name": "Geonosian Spy",
+    "aliases": [],
+    "image": "images/geonosian_spy.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Geonosian",
+      "Separatist"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "grand_admiral_thrawn",
+    "name": "Grand Admiral Thrawn",
+    "aliases": [],
+    "image": "images/grand_admiral_thrawn.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "grand_inquisitor",
+    "name": "Grand Inquisitor",
+    "aliases": [],
+    "image": "images/grand_inquisitor.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "grand_master_yoda",
+    "name": "Grand Master Yoda",
+    "aliases": [],
+    "image": "images/grand_master_yoda.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "grand_moff_tarkin",
+    "name": "Grand Moff Tarkin",
+    "aliases": [],
+    "image": "images/grand_moff_tarkin.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "great_mothers",
+    "name": "Great Mothers",
+    "aliases": [],
+    "image": "images/great_mothers.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "greedo",
+    "name": "Greedo",
+    "aliases": [],
+    "image": "images/greedo.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "greef_karga",
+    "name": "Greef Karga",
+    "aliases": [],
+    "image": "images/greef_karga.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "gungan_boomadier",
+    "name": "Gungan Boomadier",
+    "aliases": [],
+    "image": "images/gungan_boomadier.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Gungan"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "gungan_phalanx",
+    "name": "Gungan Phalanx",
+    "aliases": [],
+    "image": "images/gungan_phalanx.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Gungan"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hk_47",
+    "name": "HK-47",
+    "aliases": [],
+    "image": "images/hk_47.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Sith Empire"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "han_solo",
+    "name": "Han Solo",
+    "aliases": [],
+    "image": "images/han_solo.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Rebel",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hera_syndulla",
+    "name": "Hera Syndulla",
+    "aliases": [],
+    "image": "images/hera_syndulla.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Phoenix",
+      "Rebel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "hermit_yoda",
+    "name": "Hermit Yoda",
+    "aliases": [],
+    "image": "images/hermit_yoda.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hondo_ohnaka",
+    "name": "Hondo Ohnaka",
+    "aliases": [],
+    "image": "images/hondo_ohnaka.webp",
+    "alignment": "Neutral",
+    "role": "Support",
+    "factions": [
+      "Mercenary",
+      "Pirate",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hoth_rebel_scout",
+    "name": "Hoth Rebel Scout",
+    "aliases": [],
+    "image": "images/hoth_rebel_scout.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hoth_rebel_soldier",
+    "name": "Hoth Rebel Soldier",
+    "aliases": [],
+    "image": "images/hoth_rebel_soldier.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "aliases": [],
+    "image": "images/hunter.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bad Batch",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "hunter_mercenary",
+    "name": "Hunter (Mercenary)",
+    "aliases": [],
+    "image": "images/hunter_mercenary.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Bad Batch",
+      "Mercenary"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Cavalry"
+  },
+  {
+    "id": "huyang",
+    "name": "Huyang",
+    "aliases": [],
+    "image": "images/huyang.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Spectre"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Apprentices"
+  },
+  {
+    "id": "ig_100_magnaguard",
+    "name": "IG-100 MagnaGuard",
+    "aliases": [],
+    "image": "images/ig_100_magnaguard.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ig_11",
+    "name": "IG-11",
+    "aliases": [],
+    "image": "images/ig_11.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ig_12_grogu",
+    "name": "IG-12 & Grogu",
+    "aliases": [],
+    "image": "images/ig_12_grogu.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Mandalorian"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ig_86_sentinel_droid",
+    "name": "IG-86 Sentinel Droid",
+    "aliases": [],
+    "image": "images/ig_86_sentinel_droid.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ig_88",
+    "name": "IG-88",
+    "aliases": [],
+    "image": "images/ig_88.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ig_90",
+    "name": "IG-90",
+    "aliases": [],
+    "image": "images/ig_90.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Droid",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "iden_versio",
+    "name": "Iden Versio",
+    "aliases": [],
+    "image": "images/iden_versio.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ima_gun_di",
+    "name": "Ima-Gun Di",
+    "aliases": [],
+    "image": "images/ima_gun_di.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "imperial_probe_droid",
+    "name": "Imperial Probe Droid",
+    "aliases": [],
+    "image": "images/imperial_probe_droid.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "imperial_super_commando",
+    "name": "Imperial Super Commando",
+    "aliases": [],
+    "image": "images/imperial_super_commando.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Mandalorian"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "inquisitor_barriss",
+    "name": "Inquisitor Barriss",
+    "aliases": [],
+    "image": "images/inquisitor_barriss.webp",
+    "alignment": "Dark",
+    "role": "Healer",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "jabba_the_hutt",
+    "name": "Jabba the Hutt",
+    "aliases": [],
+    "image": "images/jabba_the_hutt.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jango_fett",
+    "name": "Jango Fett",
+    "aliases": [],
+    "image": "images/jango_fett.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mandalorian",
+      "Mercenary",
+      "Scoundrel",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jar_jar_binks",
+    "name": "Jar Jar Binks",
+    "aliases": [],
+    "image": "images/jar_jar_binks.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Gungan"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jawa",
+    "name": "Jawa",
+    "aliases": [],
+    "image": "images/jawa.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jawa"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jawa_engineer",
+    "name": "Jawa Engineer",
+    "aliases": [],
+    "image": "images/jawa_engineer.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Jawa"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jawa_scavenger",
+    "name": "Jawa Scavenger",
+    "aliases": [],
+    "image": "images/jawa_scavenger.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jawa"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_consular",
+    "name": "Jedi Consular",
+    "aliases": [],
+    "image": "images/jedi_consular.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_knight_anakin",
+    "name": "Jedi Knight Anakin",
+    "aliases": [],
+    "image": "images/jedi_knight_anakin.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_knight_cal_kestis",
+    "name": "Jedi Knight Cal Kestis",
+    "aliases": [],
+    "image": "images/jedi_knight_cal_kestis.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jedi",
+      "Mercenary"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_knight_guardian",
+    "name": "Jedi Knight Guardian",
+    "aliases": [],
+    "image": "images/jedi_knight_guardian.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_knight_luke_skywalker",
+    "name": "Jedi Knight Luke Skywalker",
+    "aliases": [],
+    "image": "images/jedi_knight_luke_skywalker.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_knight_revan",
+    "name": "Jedi Knight Revan",
+    "aliases": [],
+    "image": "images/jedi_knight_revan.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jedi",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_master_kenobi",
+    "name": "Jedi Master Kenobi",
+    "aliases": [],
+    "image": "images/jedi_master_kenobi.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_master_luke_skywalker",
+    "name": "Jedi Master Luke Skywalker",
+    "aliases": [],
+    "image": "images/jedi_master_luke_skywalker.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "jedi_master_mace_windu",
+    "name": "Jedi Master Mace Windu",
+    "aliases": [],
+    "image": "images/jedi_master_mace_windu.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "jocasta_nu",
+    "name": "Jocasta Nu",
+    "aliases": [],
+    "image": "images/jocasta_nu.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Cavalry"
+  },
+  {
+    "id": "jolee_bindo",
+    "name": "Jolee Bindo",
+    "aliases": [],
+    "image": "images/jolee_bindo.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Jedi",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "juhani",
+    "name": "Juhani",
+    "aliases": [],
+    "image": "images/juhani.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jedi",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "jyn_erso",
+    "name": "Jyn Erso",
+    "aliases": [],
+    "image": "images/jyn_erso.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "k_2so",
+    "name": "K-2SO",
+    "aliases": [],
+    "image": "images/k_2so.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Droid",
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kanan_jarrus",
+    "name": "Kanan Jarrus",
+    "aliases": [],
+    "image": "images/kanan_jarrus.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jedi",
+      "Phoenix",
+      "Rebel"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kelleran_beq",
+    "name": "Kelleran Beq",
+    "aliases": [],
+    "image": "images/kelleran_beq.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ki_adi_mundi",
+    "name": "Ki-Adi-Mundi",
+    "aliases": [],
+    "image": "images/ki_adi_mundi.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kit_fisto",
+    "name": "Kit Fisto",
+    "aliases": [],
+    "image": "images/kit_fisto.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "kix",
+    "name": "Kix",
+    "aliases": [],
+    "image": "images/kix.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Clone Trooper",
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Piracy"
+  },
+  {
+    "id": "krrsantan",
+    "name": "Krrsantan",
+    "aliases": [],
+    "image": "images/krrsantan.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Bounty Hunter",
+      "Hutt Cartel",
+      "Mercenary",
+      "Scoundrel",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "kuiil",
+    "name": "Kuiil",
+    "aliases": [],
+    "image": "images/kuiil.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kyle_katarn",
+    "name": "Kyle Katarn",
+    "aliases": [],
+    "image": "images/kyle_katarn.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Jedi",
+      "Mercenary",
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kylo_ren",
+    "name": "Kylo Ren",
+    "aliases": [],
+    "image": "images/kylo_ren.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "kylo_ren_unmasked",
+    "name": "Kylo Ren (Unmasked)",
+    "aliases": [],
+    "image": "images/kylo_ren_unmasked.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "First Order",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "l3_37",
+    "name": "L3-37",
+    "aliases": [],
+    "image": "images/l3_37.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Droid",
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "lando_calrissian",
+    "name": "Lando Calrissian",
+    "aliases": [],
+    "image": "images/lando_calrissian.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "leia_organa",
+    "name": "Leia Organa",
+    "aliases": [],
+    "image": "images/leia_organa.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "lobot",
+    "name": "Lobot",
+    "aliases": [],
+    "image": "images/lobot.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "logray",
+    "name": "Logray",
+    "aliases": [],
+    "image": "images/logray.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "lord_vader",
+    "name": "Lord Vader",
+    "aliases": [],
+    "image": "images/lord_vader.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "luke_skywalker_farmboy",
+    "name": "Luke Skywalker (Farmboy)",
+    "aliases": [],
+    "image": "images/luke_skywalker_farmboy.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "luminara_unduli",
+    "name": "Luminara Unduli",
+    "aliases": [],
+    "image": "images/luminara_unduli.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "luthen_rael",
+    "name": "Luthen Rael",
+    "aliases": [],
+    "image": "images/luthen_rael.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "mace_windu",
+    "name": "Mace Windu",
+    "aliases": [],
+    "image": "images/mace_windu.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "magmatrooper",
+    "name": "Magmatrooper",
+    "aliases": [],
+    "image": "images/magmatrooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "mara_jade_the_emperors_hand",
+    "name": "Mara Jade, The Emperor's Hand",
+    "aliases": [],
+    "image": "images/mara_jade_the_emperors_hand.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "marrok",
+    "name": "Marrok",
+    "aliases": [],
+    "image": "images/marrok.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Inquisitorius",
+      "Mercenary",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "master_qui_gon",
+    "name": "Master Qui-Gon",
+    "aliases": [],
+    "image": "images/master_qui_gon.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "maul",
+    "name": "Maul",
+    "aliases": [],
+    "image": "images/maul.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "maul_hate_fueled",
+    "name": "Maul (Hate-Fueled)",
+    "aliases": [],
+    "image": "images/maul_hate_fueled.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "maz_kanata",
+    "name": "Maz Kanata",
+    "aliases": [],
+    "image": "images/maz_kanata.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Pirate",
+      "Scoundrel",
+      "Smuggler",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Piracy"
+  },
+  {
+    "id": "merrin",
+    "name": "Merrin",
+    "aliases": [],
+    "image": "images/merrin.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "mission_vao",
+    "name": "Mission Vao",
+    "aliases": [],
+    "image": "images/mission_vao.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Old Republic",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "mob_enforcer",
+    "name": "Mob Enforcer",
+    "aliases": [],
+    "image": "images/mob_enforcer.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Hutt Cartel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "moff_gideon",
+    "name": "Moff Gideon",
+    "aliases": [],
+    "image": "images/moff_gideon.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Remnant",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "mon_mothma",
+    "name": "Mon Mothma",
+    "aliases": [],
+    "image": "images/mon_mothma.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "morgan_elsbeth",
+    "name": "Morgan Elsbeth",
+    "aliases": [],
+    "image": "images/morgan_elsbeth.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "mother_talzin",
+    "name": "Mother Talzin",
+    "aliases": [],
+    "image": "images/mother_talzin.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "night_trooper",
+    "name": "Night Trooper",
+    "aliases": [],
+    "image": "images/night_trooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Imperial Remnant",
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "nightsister_acolyte",
+    "name": "Nightsister Acolyte",
+    "aliases": [],
+    "image": "images/nightsister_acolyte.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "nightsister_initiate",
+    "name": "Nightsister Initiate",
+    "aliases": [],
+    "image": "images/nightsister_initiate.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "nightsister_spirit",
+    "name": "Nightsister Spirit",
+    "aliases": [],
+    "image": "images/nightsister_spirit.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "nightsister_zombie",
+    "name": "Nightsister Zombie",
+    "aliases": [],
+    "image": "images/nightsister_zombie.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "ninth_sister",
+    "name": "Ninth Sister",
+    "aliases": [],
+    "image": "images/ninth_sister.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "nute_gunray",
+    "name": "Nute Gunray",
+    "aliases": [],
+    "image": "images/nute_gunray.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Scoundrel",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "obi_wan_kenobi_old_ben",
+    "name": "Obi-Wan Kenobi (Old Ben)",
+    "aliases": [],
+    "image": "images/obi_wan_kenobi_old_ben.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jedi",
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "old_daka",
+    "name": "Old Daka",
+    "aliases": [],
+    "image": "images/old_daka.webp",
+    "alignment": "Dark",
+    "role": "Healer",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "omega",
+    "name": "Omega",
+    "aliases": [],
+    "image": "images/omega.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bad Batch",
+      "Clone Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "omega_fugitive",
+    "name": "Omega (Fugitive)",
+    "aliases": [],
+    "image": "images/omega_fugitive.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Bad Batch"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Cavalry"
+  },
+  {
+    "id": "padawan_obi_wan",
+    "name": "Padawan Obi-Wan",
+    "aliases": [],
+    "image": "images/padawan_obi_wan.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "padawan_sabine_wren",
+    "name": "Padawan Sabine Wren",
+    "aliases": [],
+    "image": "images/padawan_sabine_wren.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Spectre",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Apprentices"
+  },
+  {
+    "id": "padme_amidala",
+    "name": "Padmé Amidala",
+    "aliases": [],
+    "image": "images/padme_amidala.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "pao",
+    "name": "Pao",
+    "aliases": [],
+    "image": "images/pao.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "paploo",
+    "name": "Paploo",
+    "aliases": [],
+    "image": "images/paploo.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "paz_vizsla",
+    "name": "Paz Vizsla",
+    "aliases": [],
+    "image": "images/paz_vizsla.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Mandalorian"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "pirate_king_hondo_ohnaka",
+    "name": "Pirate King Hondo Ohnaka",
+    "aliases": [],
+    "image": "images/pirate_king_hondo_ohnaka.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Pirate",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Piracy"
+  },
+  {
+    "id": "plo_koon",
+    "name": "Plo Koon",
+    "aliases": [],
+    "image": "images/plo_koon.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "poe_dameron",
+    "name": "Poe Dameron",
+    "aliases": [],
+    "image": "images/poe_dameron.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "poggle_the_lesser",
+    "name": "Poggle the Lesser",
+    "aliases": [],
+    "image": "images/poggle_the_lesser.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Geonosian",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "princess_kneesaa",
+    "name": "Princess Kneesaa",
+    "aliases": [],
+    "image": "images/princess_kneesaa.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "princess_leia",
+    "name": "Princess Leia",
+    "aliases": [],
+    "image": "images/princess_leia.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "qira",
+    "name": "Qi'ra",
+    "aliases": [],
+    "image": "images/qira.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "queen_amidala",
+    "name": "Queen Amidala",
+    "aliases": [],
+    "image": "images/queen_amidala.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "qui_gon_jinn",
+    "name": "Qui-Gon Jinn",
+    "aliases": [],
+    "image": "images/qui_gon_jinn.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "quiggold",
+    "name": "Quiggold",
+    "aliases": [],
+    "image": "images/quiggold.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Piracy"
+  },
+  {
+    "id": "r2_d2",
+    "name": "R2-D2",
+    "aliases": [],
+    "image": "images/r2_d2.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Galactic Republic",
+      "Rebel",
+      "Resistance"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "rc_1262_scorch",
+    "name": "RC-1262 \"Scorch\"",
+    "aliases": [],
+    "image": "images/rc_1262_scorch.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Clone Trooper",
+      "Empire"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "range_trooper",
+    "name": "Range Trooper",
+    "aliases": [],
+    "image": "images/range_trooper.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "rebel_officer_leia_organa",
+    "name": "Rebel Officer Leia Organa",
+    "aliases": [],
+    "image": "images/rebel_officer_leia_organa.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "resistance_hero_finn",
+    "name": "Resistance Hero Finn",
+    "aliases": [],
+    "image": "images/resistance_hero_finn.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "resistance_hero_poe",
+    "name": "Resistance Hero Poe",
+    "aliases": [],
+    "image": "images/resistance_hero_poe.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "resistance_pilot",
+    "name": "Resistance Pilot",
+    "aliases": [],
+    "image": "images/resistance_pilot.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "resistance_trooper",
+    "name": "Resistance Trooper",
+    "aliases": [],
+    "image": "images/resistance_trooper.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "rey",
+    "name": "Rey",
+    "aliases": [],
+    "image": "images/rey.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "rey_dark_side_vision",
+    "name": "Rey (Dark Side Vision)",
+    "aliases": [],
+    "image": "images/rey_dark_side_vision.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order",
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Apprentices"
+  },
+  {
+    "id": "rey_jedi_training",
+    "name": "Rey (Jedi Training)",
+    "aliases": [],
+    "image": "images/rey_jedi_training.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Resistance",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "rey_scavenger",
+    "name": "Rey (Scavenger)",
+    "aliases": [],
+    "image": "images/rey_scavenger.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "rose_tico",
+    "name": "Rose Tico",
+    "aliases": [],
+    "image": "images/rose_tico.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "royal_guard",
+    "name": "Royal Guard",
+    "aliases": [],
+    "image": "images/royal_guard.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sm_33",
+    "name": "SM-33",
+    "aliases": [],
+    "image": "images/sm_33.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "stap",
+    "name": "STAP",
+    "aliases": [],
+    "image": "images/stap.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sabine_wren",
+    "name": "Sabine Wren",
+    "aliases": [],
+    "image": "images/sabine_wren.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Phoenix",
+      "Rebel"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sana_starros",
+    "name": "Sana Starros",
+    "aliases": [],
+    "image": "images/sana_starros.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Pirate",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "satele_shan",
+    "name": "Satele Shan",
+    "aliases": [],
+    "image": "images/satele_shan.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Jedi",
+      "Old Republic"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "savage_opress",
+    "name": "Savage Opress",
+    "aliases": [],
+    "image": "images/savage_opress.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "saw_gerrera",
+    "name": "Saw Gerrera",
+    "aliases": [],
+    "image": "images/saw_gerrera.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "scarif_rebel_pathfinder",
+    "name": "Scarif Rebel Pathfinder",
+    "aliases": [],
+    "image": "images/scarif_rebel_pathfinder.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter",
+      "Rogue One"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "scout_trooper",
+    "name": "Scout Trooper",
+    "aliases": [],
+    "image": "images/scout_trooper.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Imperial Remnant",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "second_sister",
+    "name": "Second Sister",
+    "aliases": [],
+    "image": "images/second_sister.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "seventh_sister",
+    "name": "Seventh Sister",
+    "aliases": [],
+    "image": "images/seventh_sister.webp",
+    "alignment": "Dark",
+    "role": "Healer",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "shaak_ti",
+    "name": "Shaak Ti",
+    "aliases": [],
+    "image": "images/shaak_ti.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "shin_hati",
+    "name": "Shin Hati",
+    "aliases": [],
+    "image": "images/shin_hati.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "shoretrooper",
+    "name": "Shoretrooper",
+    "aliases": [],
+    "image": "images/shoretrooper.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sith_assassin",
+    "name": "Sith Assassin",
+    "aliases": [],
+    "image": "images/sith_assassin.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sith_empire_trooper",
+    "name": "Sith Empire Trooper",
+    "aliases": [],
+    "image": "images/sith_empire_trooper.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sith_eternal_emperor",
+    "name": "Sith Eternal Emperor",
+    "aliases": [],
+    "image": "images/sith_eternal_emperor.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "sith_marauder",
+    "name": "Sith Marauder",
+    "aliases": [],
+    "image": "images/sith_marauder.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "sith_trooper",
+    "name": "Sith Trooper",
+    "aliases": [],
+    "image": "images/sith_trooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order",
+      "Sith"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "skiff_guard_lando_calrissian",
+    "name": "Skiff Guard (Lando Calrissian)",
+    "aliases": [],
+    "image": "images/skiff_guard_lando_calrissian.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Hutt Cartel",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "snowtrooper",
+    "name": "Snowtrooper",
+    "aliases": [],
+    "image": "images/snowtrooper.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "starkiller",
+    "name": "Starkiller",
+    "aliases": [],
+    "image": "images/starkiller.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "stormtrooper",
+    "name": "Stormtrooper",
+    "aliases": [],
+    "image": "images/stormtrooper.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Imperial Remnant",
+      "Imperial Trooper"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "stormtrooper_han",
+    "name": "Stormtrooper Han",
+    "aliases": [],
+    "image": "images/stormtrooper_han.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "stormtrooper_luke",
+    "name": "Stormtrooper Luke",
+    "aliases": [],
+    "image": "images/stormtrooper_luke.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "sun_fac",
+    "name": "Sun Fac",
+    "aliases": [],
+    "image": "images/sun_fac.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Geonosian",
+      "Separatist"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "supreme_leader_kylo_ren",
+    "name": "Supreme Leader Kylo Ren",
+    "aliases": [],
+    "image": "images/supreme_leader_kylo_ren.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "t3_m4",
+    "name": "T3-M4",
+    "aliases": [],
+    "image": "images/t3_m4.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Droid",
+      "Old Republic"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "tie_fighter_pilot",
+    "name": "TIE Fighter Pilot",
+    "aliases": [],
+    "image": "images/tie_fighter_pilot.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Imperial Remnant"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "talia",
+    "name": "Talia",
+    "aliases": [],
+    "image": "images/talia.webp",
+    "alignment": "Dark",
+    "role": "Healer",
+    "factions": [
+      "Nightsister"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "tarfful",
+    "name": "Tarfful",
+    "aliases": [],
+    "image": "images/tarfful.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "taron_malicos",
+    "name": "Taron Malicos",
+    "aliases": [],
+    "image": "images/taron_malicos.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "tech",
+    "name": "Tech",
+    "aliases": [],
+    "image": "images/tech.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Bad Batch",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "teebo",
+    "name": "Teebo",
+    "aliases": [],
+    "image": "images/teebo.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "temple_guard",
+    "name": "Temple Guard",
+    "aliases": [],
+    "image": "images/temple_guard.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Jedi Vanguard"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Revenge of the Sith"
+  },
+  {
+    "id": "the_armorer",
+    "name": "The Armorer",
+    "aliases": [],
+    "image": "images/the_armorer.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Mandalorian"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "the_mandalorian",
+    "name": "The Mandalorian",
+    "aliases": [],
+    "image": "images/the_mandalorian.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mandalorian",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "the_mandalorian_beskar_armor",
+    "name": "The Mandalorian (Beskar Armor)",
+    "aliases": [],
+    "image": "images/the_mandalorian_beskar_armor.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mandalorian",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "the_stranger",
+    "name": "The Stranger",
+    "aliases": [],
+    "image": "images/the_stranger.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Ships and Bounties"
+  },
+  {
+    "id": "third_sister",
+    "name": "Third Sister",
+    "aliases": [],
+    "image": "images/third_sister.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "threepio_chewie",
+    "name": "Threepio & Chewie",
+    "aliases": [],
+    "image": "images/threepio_chewie.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Droid",
+      "Rebel",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "tusken_chieftain",
+    "name": "Tusken Chieftain",
+    "aliases": [],
+    "image": "images/tusken_chieftain.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Tusken"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "tusken_raider",
+    "name": "Tusken Raider",
+    "aliases": [],
+    "image": "images/tusken_raider.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Tusken"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "tusken_shaman",
+    "name": "Tusken Shaman",
+    "aliases": [],
+    "image": "images/tusken_shaman.webp",
+    "alignment": "Dark",
+    "role": "Healer",
+    "factions": [
+      "Tusken"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "tusken_warrior",
+    "name": "Tusken Warrior",
+    "aliases": [],
+    "image": "images/tusken_warrior.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Tusken"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "urorrurrr",
+    "name": "URoRRuR'R'R",
+    "aliases": [],
+    "image": "images/urorrurrr.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Tusken"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "ugnaught",
+    "name": "Ugnaught",
+    "aliases": [],
+    "image": "images/ugnaught.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "vandor_chewbacca",
+    "name": "Vandor Chewbacca",
+    "aliases": [],
+    "image": "images/vandor_chewbacca.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "vane",
+    "name": "Vane",
+    "aliases": [],
+    "image": "images/vane.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Pirate",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Piracy"
+  },
+  {
+    "id": "veteran_smuggler_chewbacca",
+    "name": "Veteran Smuggler Chewbacca",
+    "aliases": [],
+    "image": "images/veteran_smuggler_chewbacca.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance",
+      "Scoundrel",
+      "Wookiee",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "veteran_smuggler_han_solo",
+    "name": "Veteran Smuggler Han Solo",
+    "aliases": [],
+    "image": "images/veteran_smuggler_han_solo.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Resistance",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "visas_marr",
+    "name": "Visas Marr",
+    "aliases": [],
+    "image": "images/visas_marr.webp",
+    "alignment": "Light",
+    "role": "Healer",
+    "factions": [
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "wampa",
+    "name": "Wampa",
+    "aliases": [],
+    "image": "images/wampa.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "wat_tambor",
+    "name": "Wat Tambor",
+    "aliases": [],
+    "image": "images/wat_tambor.webp",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Separatist"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "wedge_antilles",
+    "name": "Wedge Antilles",
+    "aliases": [],
+    "image": "images/wedge_antilles.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Rebel Fighter"
+    ],
+    "crew_member": true,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "wicket",
+    "name": "Wicket",
+    "aliases": [],
+    "image": "images/wicket.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Ewok"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "wrecker",
+    "name": "Wrecker",
+    "aliases": [],
+    "image": "images/wrecker.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Bad Batch",
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "wrecker_mercenary",
+    "name": "Wrecker (Mercenary)",
+    "aliases": [],
+    "image": "images/wrecker_mercenary.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Bad Batch",
+      "Mercenary"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Cavalry"
+  },
+  {
+    "id": "yoda_chewie",
+    "name": "Yoda & Chewie",
+    "aliases": [],
+    "image": "images/yoda_chewie.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "10th Anniversary"
+  },
+  {
+    "id": "young_han_solo",
+    "name": "Young Han Solo",
+    "aliases": [],
+    "image": "images/young_han_solo.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "young_lando_calrissian",
+    "name": "Young Lando Calrissian",
+    "aliases": [],
+    "image": "images/young_lando_calrissian.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Mercenary",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "zaalbar",
+    "name": "Zaalbar",
+    "aliases": [],
+    "image": "images/zaalbar.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Mercenary",
+      "Old Republic",
+      "Scoundrel",
+      "Wookiee"
+    ],
+    "crew_member": false,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "zam_wesell",
+    "name": "Zam Wesell",
+    "aliases": [],
+    "image": "images/zam_wesell.webp",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Mercenary",
+      "Scoundrel"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Legacy"
+  },
+  {
+    "id": "zorii_bliss",
+    "name": "Zorii Bliss",
+    "aliases": [],
+    "image": "images/zorii_bliss.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Resistance",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "crew_member": true,
+    "leader": false,
+    "era": "Legacy"
+  },
+  {
+    "id": "zuckuss",
+    "name": "Zuckuss",
+    "aliases": [],
+    "image": "images/zuckuss.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel",
+      "Unaligned Force User"
+    ],
+    "crew_member": false,
+    "leader": true,
+    "era": "Ships and Bounties"
+  }
+]
