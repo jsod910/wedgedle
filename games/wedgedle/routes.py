@@ -7,7 +7,7 @@ game = WedgedleGame()
 
 # @wedgedle_bp.route("/")
 # def index():
-#     return render_template("wedgedle_index.html")
+#     return render_template("wedgedle.html")
 
 @wedgedle_bp.route("api/wedgedle/search")
 def search():

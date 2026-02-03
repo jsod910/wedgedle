@@ -10,7 +10,7 @@ app.register_blueprint(wedgedle_bp, url_prefix="/wedgedle")
 
 @app.route("/")
 def landing():
-    return render_template("wedgedle_index.html")
+    return render_template("wedgedle.html")
 
 # @app.route("/games/wedgedle")
 # def wedgedle():
@@ -19,4 +19,4 @@ def landing():
 if __name__ == "__main__":
     # app.run(debug=True)
     # app.run(host="0.0.0.0", port=5000, debug=True)
-    app.run()
+    app.run(debug=True)

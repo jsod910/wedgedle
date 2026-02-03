@@ -1,28 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Wedgedle</title>
+{% extends "base.html" %}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/wedgedle_styles.css') }}">
-    <!-- <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet"> -->
-  </head>
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/wedgedle.css') }}">
+{% endblock %}
 
-  <body>
-    <div id="game-info">
-      <button id="help-button" class="btn">?</button>
+
+    {% block before_title %}
+    <div id="game-info" class="game-info">
+      <button id="help-button" class="info-button btn">?</button>
     </div>
-    <h1 id="game-title">Wedgedle</h1>
+    {% endblock %}
     
 
+    {% block content %}
     <div class="input-wrapper">
-      <div id="input-elems">
-        <div id="input-border">
-            <input id="guess-input" type="text" placeholder="Enter character name"/>
-          <button id="guess-button" class="btn">>>></button>
+      <div id="input-elems" class="input-elems">
+        <div id="input-border" class="input-border">
+            <input id="guess-input" class="guess-input" type="text" placeholder="Enter character name"/>
+          <button id="guess-button" class="guess-button btn">>>></button>
         </div>
         
-        <div id="guess-list" class="hidden"></div>
+        <div id="guess-list" class="guess-list hidden"></div>
       </div>
     </div>
     
@@ -41,10 +39,10 @@
     </div>
 
     <!-- Win Loss Overlay -->
-    <div id="endgame-overlay" class="hidden">
-      <div id="endgame-modal">
-        <button id="endgame-close-btn" class="btn">✕</button>
-        <h2 id="endgame-title"></h2>
+    <div id="endgame-overlay" class="modal-overlay hidden">
+      <div id="endgame-modal" class="modal">
+        <button id="endgame-close-btn" class="close-btn btn">✕</button>
+        <h2 id="endgame-title" class="endgame-title"></h2>
         <div id="endgame-guess-cnt" class="endgame-msg"></div>
         <div id="endgame-answer"></div>
         <div class="reset-timer-wrapper">
@@ -55,9 +53,9 @@
     </div>
 
     <!-- Help Information -->
-    <div id="help-overlay" class="hidden">
-      <div id="help-modal">
-        <button id="help-close-btn" class="btn">✕</button>
+    <div id="help-overlay" class="modal-overlay hidden">
+      <div id="help-modal" class="modal">
+        <button id="help-close-btn" class="close-btn btn">✕</button>
 
         <h3 id="help-title" class="help-header">How to play</h3>
         <p id="help-description" class="help-desc"></p>
@@ -90,6 +88,9 @@
       </div>
     </div>
 
+    {% endblock %}
+
+    {% block scripts %}
     <script>
       const GUESS_URL = "{{ url_for('wedgedle.guess') }}";
       const SEARCH_URL = "{{ url_for('wedgedle.search') }}";
@@ -98,8 +99,5 @@
 
       const IMAGE_PRELOAD = "{{ url_for('static', filename='data/characters.json') }}";
     </script>
-    <script src="{{ url_for('static', filename='js/wedgedle_script.js') }}"></script>
-
-  </body>
-
-</html>
+    <script src="{{ url_for('static', filename='js/wedgedle.js') }}"></script>
+    {% endblock %}
