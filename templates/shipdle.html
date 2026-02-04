@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/shipdle.css') }}">
+{% endblock %}
+
+{% block before_title %}
+    <div id="game-info" class="game-info">
+      <button id="help-button" class="info-button btn">?</button>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+    <div class="input-wrapper">
+      <div id="input-elems" class="input-elems">
+        <div id="input-border" class="input-border">
+            <input id="guess-input" class="guess-input" type="text" placeholder="Enter character name"/>
+          <button id="guess-button" class="guess-button btn">>>></button>
+        </div>
+        
+        <div id="guess-list" class="guess-list hidden"></div>
+      </div>
+    </div>
+    
+    <div id="game-container">
+      <div id="cat-list" class="header-row">
+        <div class="header-box">Ship</div>
+        <div class="header-box">Alignment</div>
+        <div class="header-box">Crew Members</div>
+        <div class="header-box">Faction(s)</div>
+        <div class="header-box">Role</div>
+      </div>
+
+      <div id="guess-container"></div>
+    </div>
+
+    <!-- Win Loss Overlay -->
+    <div id="endgame-overlay" class="modal-overlay hidden">
+      <div id="endgame-modal" class="modal">
+        <button id="endgame-close-btn" class="close-btn btn">✕</button>
+        <h2 id="endgame-title" class="endgame-title"></h2>
+        <div id="endgame-guess-cnt" class="endgame-msg"></div>
+        <div id="endgame-answer"></div>
+        <div class="reset-timer-wrapper">
+          <div class="reset-timer-text">Next Character in:</div>
+          <div id="end-timer" class="reset-timer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Help Information -->
+    <div id="help-overlay" class="modal-overlay hidden">
+      <div id="help-modal" class="modal">
+        <button id="help-close-btn" class="close-btn btn">✕</button>
+
+        <h3 id="help-title" class="help-header">How to play</h3>
+        <p id="help-description" class="help-desc"></p>
+        
+        <div class="reset-timer-wrapper">
+          <div class="reset-timer-text">Next Character in:</div>
+          <div id="help-timer" class="reset-timer"></div>
+        </div>
+        
+        <h4 id="help-properties" class="help-header">Properties</h4>
+        <div id="help-subtext"></div>
+
+        <div id="help-feedback" class="help-header">Feedback</div>
+        <div id="help-color-grid">
+          <div class="help-color-square">
+            <div class="help-color-example correct"></div>
+            <div class="help-color-desc">Correct</div>
+          </div>
+          
+          <div class="help-color-square">
+            <div class="help-color-example partial"></div>
+            <div class="help-color-desc">Partial</div>
+          </div>
+          
+          <div class="help-color-square">
+            <div class="help-color-example incorrect"></div>
+            <div class="help-color-desc">Incorrect</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
+
+{% block scripts %}
+    <script>
+    const GUESS_URL = "{{ url_for('shipdle.guess') }}";
+    const SEARCH_URL = "{{ url_for('shipdle.search') }}";
+    const ANSWER_URL = "{{ url_for('shipdle.answer') }}";
+    const IMAGE_URL = "{{ url_for('shipdle.images') }}";
+    </script>
+
+    <script src="{{ url_for('static', filename='js/shipdle.js') }}"></script>
+{% endblock %}

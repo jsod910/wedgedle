@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jedi_fighter_ahsoka",
+    "name": "Ahsoka Tano's Jedi Starfighter",
+    "aliases": [],
+    "image": "images/ships/jedi_fighter_ahsoka.webp",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "crew_members": 1
+  },
+  {
+    "id": "b28extinctionclassbomber",
+    "name": "B-28 Extinction-class Bomber",
+    "aliases": [],
+    "image": "images/ships/b28extinctionclassbomber.webp",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "crew_members": 1
+  },
+  {
+    "id": "ywing_btlb",
+    "name": "BTL-B Y-wing Starfighter",
+    "aliases": [],
+    "image": "images/ships/ywing_btlb.webp",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic"
+    ],
+    "crew_members": 0
+  },
+  {
+    "id": "uwing_hero",
+    "name": "Cassian's U-wing",
+    "aliases": [],
+    "image": "images/ships/uwing_hero.webp",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rogue One"
+    ],
+    "crew_members": 3
+  }
+]

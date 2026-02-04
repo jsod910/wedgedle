@@ -55,7 +55,7 @@ class WedgedleGame:
         day_index = (today - GAME_START_DATE).days
 
         if day_index < 0:
-            day_index = 0;
+            day_index = 0
         
         hash_input = f"wedgedle-{day_index}".encode("utf-8")
         digest = hashlib.sha256(hash_input).hexdigest()
@@ -160,7 +160,7 @@ class WedgedleGame:
 
     # test harness
     # def run_test():
-    #     target_name = get_daily_character(CHARACTERS)
+    #     target_name = get_daily_characters(CHARACTERS)
     #     target = CHARACTERS[target_name]
     #     # LOOKUP = build_lookup(CHARACTERS,ALIASES)
 
