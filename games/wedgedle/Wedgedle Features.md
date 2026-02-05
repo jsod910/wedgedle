@@ -23,8 +23,10 @@ v1 Feedback
 1. Adjust colors
 	1a. Green and Yellow too close
 	1b. Colors too transparent
+	1c. Incorrect should be gray or red
 2. Work on faction partial correctness ambiguity
 	2a. Faction is yellow even if certain elements are correct
 3. Add give up button
 4. Fix Timer to reset at proper time
-5. 
+5. Correct logic to determine answer (compare name values instead of category correctness)
+6. Endless mode

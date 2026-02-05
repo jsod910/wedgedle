@@ -89,6 +89,11 @@ body {
     max-width: 90%;
     padding: 24px 28px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     background: #eed9c4;
     border: 2px solid #800080;
     border-radius: 12px;
@@ -317,6 +322,9 @@ body {
     color: red;
 }
 .endgame-msg {
+    font-family: 'Star Jedi', sans-serif;
     color: black;
     font-size: 20px;
+
+    margin-top: 10px;
 }
