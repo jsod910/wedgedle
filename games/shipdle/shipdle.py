@@ -88,6 +88,13 @@ class ShipdleGame:
             feedback["crew_members"] = Result.LOWER
         else:
             feedback["crew_members"] = Result.HIGHER
+
+        if guess["release_date"] == target["release_date"]:
+            feedback["release_date"] = Result.CORRECT
+        elif guess["release_date"] > target["release_date"]:
+            feedback["release_date"] = Result.LOWER
+        elif guess["release_date"] < target["release_date"]:
+            feedback["release_date"] = Result.HIGHER
         
         return feedback
     

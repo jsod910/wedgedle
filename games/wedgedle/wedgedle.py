@@ -1,5 +1,6 @@
 
 from enum import Enum
+import pytz
 import datetime
 import copy
 import json
@@ -94,17 +95,17 @@ class WedgedleGame:
         else:
             feedback["leader"] = Result.INCORRECT
         
-        if guess["era"] == target["era"]:
-            feedback["era"] = Result.CORRECT
-        else:
-            feedback["era"] = Result.INCORRECT
+        # if guess["era"] == target["era"]:
+        #     feedback["era"] = Result.CORRECT
+        # else:
+        #     feedback["era"] = Result.INCORRECT
 
-        # if guess["release_date"] == target["release_date"]:
-        #     feedback["release_date"] = Result.CORRECT
-        # elif guess["release_date"] > target["release_date"]:
-        #     feedback["release_date"] = Result.LOWER
-        # elif guess["release_date"] < target["release_date"]:
-        #     feedback["release_date"] = Result.HIGHER
+        if guess["release_date"] == target["release_date"]:
+            feedback["release_date"] = Result.CORRECT
+        elif guess["release_date"] > target["release_date"]:
+            feedback["release_date"] = Result.LOWER
+        elif guess["release_date"] < target["release_date"]:
+            feedback["release_date"] = Result.HIGHER
         
         return feedback
 

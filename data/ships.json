@@ -1,53 +1,898 @@
 [
   {
-    "id": "jedi_fighter_ahsoka",
+    "id": "ahsoka-tanos-jedi-starfighter",
     "name": "Ahsoka Tano's Jedi Starfighter",
-    "aliases": [],
-    "image": "images/ships/jedi_fighter_ahsoka.webp",
     "alignment": "Light",
     "role": "Attacker",
     "factions": [
       "Galactic Republic",
       "Jedi"
     ],
+    "image": "/images/ships/ahsoka-tanos-jedi-starfighter.png",
+    "release_date": 2017,
     "crew_members": 1
   },
   {
-    "id": "b28extinctionclassbomber",
+    "id": "anakins-eta-2-starfighter",
+    "name": "Anakin's Eta-2 Starfighter",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "image": "/images/ships/anakins-eta-2-starfighter.png",
+    "release_date": 2018,
+    "crew_members": 1
+  },
+  {
+    "id": "b-28-extinction-class-bomber",
     "name": "B-28 Extinction-class Bomber",
-    "aliases": [],
-    "image": "images/ships/b28extinctionclassbomber.webp",
     "alignment": "Dark",
     "role": "Tank",
     "factions": [
       "Sith",
       "Sith Empire"
     ],
+    "image": "/images/ships/b-28-extinction-class-bomber.png",
+    "release_date": 2018,
     "crew_members": 1
   },
   {
-    "id": "ywing_btlb",
+    "id": "btl-b-y-wing-starfighter",
     "name": "BTL-B Y-wing Starfighter",
-    "aliases": [],
-    "image": "images/ships/ywing_btlb.webp",
     "alignment": "Light",
     "role": "Tank",
     "factions": [
       "Galactic Republic"
     ],
+    "image": "/images/ships/btl-b-y-wing-starfighter.png",
+    "release_date": 2019,
     "crew_members": 0
   },
   {
-    "id": "uwing_hero",
-    "name": "Cassian's U-wing",
-    "aliases": [],
-    "image": "images/ships/uwing_hero.webp",
+    "id": "biggs-darklighters-x-wing",
+    "name": "Biggs Darklighter's X-wing",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/biggs-darklighters-x-wing.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "bistans-u-wing",
+    "name": "Bistan's U-wing",
     "alignment": "Light",
     "role": "Support",
     "factions": [
       "Rebel",
       "Rogue One"
     ],
+    "image": "/images/ships/bistans-u-wing.png",
+    "release_date": 2017,
+    "crew_members": 2
+  },
+  {
+    "id": "cassians-u-wing",
+    "name": "Cassian's U-wing",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Rebel",
+      "Rogue One"
+    ],
+    "image": "/images/ships/cassians-u-wing.png",
+    "release_date": 2017,
     "crew_members": 3
+  },
+  {
+    "id": "chimaera",
+    "name": "Chimaera",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/chimaera.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "clone-sergeants-arc-170",
+    "name": "Clone Sergeant's ARC-170",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Clone Trooper"
+    ],
+    "image": "/images/ships/clone-sergeants-arc-170.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "comeuppance",
+    "name": "Comeuppance",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Resistance",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "image": "/images/ships/comeuppance.png",
+    "release_date": 2024,
+    "crew_members": 1
+  },
+  {
+    "id": "ebon-hawk",
+    "name": "Ebon Hawk",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Old Republic",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/ebon-hawk.png",
+    "release_date": 2019,
+    "crew_members": 2
+  },
+  {
+    "id": "emperors-shuttle",
+    "name": "Emperor's Shuttle",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "image": "/images/ships/emperors-shuttle.png",
+    "release_date": 2019,
+    "crew_members": 2
+  },
+  {
+    "id": "endurance",
+    "name": "Endurance",
+    "alignment": "Light",
+    "role": "Capital Ship",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "image": "/images/ships/endurance.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "executor",
+    "name": "Executor",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/executor.png",
+    "release_date": 2021,
+    "crew_members": 1
+  },
+  {
+    "id": "executrix",
+    "name": "Executrix",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/executrix.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "finalizer",
+    "name": "Finalizer",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/finalizer.png",
+    "release_date": 2020,
+    "crew_members": 1
+  },
+  {
+    "id": "first-order-sf-tie-fighter",
+    "name": "First Order SF TIE Fighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/first-order-sf-tie-fighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "first-order-tie-fighter",
+    "name": "First Order TIE Fighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/first-order-tie-fighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "fury-class-interceptor",
+    "name": "Fury-class Interceptor",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "image": "/images/ships/fury-class-interceptor.png",
+    "release_date": 2023,
+    "crew_members": 1
+  },
+  {
+    "id": "gauntlet-starfighter",
+    "name": "Gauntlet Starfighter",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/gauntlet-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 2
+  },
+  {
+    "id": "geonosian-soldiers-starfighter",
+    "name": "Geonosian Soldier's Starfighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Separatist",
+      "Geonosian"
+    ],
+    "image": "/images/ships/geonosian-soldiers-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "geonosian-spys-starfighter",
+    "name": "Geonosian Spy's Starfighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Separatist",
+      "Geonosian"
+    ],
+    "image": "/images/ships/geonosian-spys-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Phoenix",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/ghost.png",
+    "release_date": 2017,
+    "crew_members": 3
+  },
+  {
+    "id": "hans-millennium-falcon",
+    "name": "Han's Millennium Falcon",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Scoundrel",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/hans-millennium-falcon.png",
+    "release_date": 2019,
+    "crew_members": 2
+  },
+  {
+    "id": "home-one",
+    "name": "Home One",
+    "alignment": "Light",
+    "role": "Capital Ship",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/home-one.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "hounds-tooth",
+    "name": "Hound's Tooth",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/hounds-tooth.png",
+    "release_date": 2018,
+    "crew_members": 1
+  },
+  {
+    "id": "hyena-bomber",
+    "name": "Hyena Bomber",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Separatist",
+      "Droid"
+    ],
+    "image": "/images/ships/hyena-bomber.png",
+    "release_date": 2019,
+    "crew_members": 0
+  },
+  {
+    "id": "ig-2000",
+    "name": "IG-2000",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel",
+      "Droid"
+    ],
+    "image": "/images/ships/ig-2000.png",
+    "release_date": 2018,
+    "crew_members": 1
+  },
+  {
+    "id": "imperial-tie-bomber",
+    "name": "Imperial TIE Bomber",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/imperial-tie-bomber.png",
+    "release_date": 2020,
+    "crew_members": 0
+  },
+  {
+    "id": "imperial-tie-fighter",
+    "name": "Imperial TIE Fighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/imperial-tie-fighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "jedi-consulars-starfighter",
+    "name": "Jedi Consular's Starfighter",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "image": "/images/ships/jedi-consulars-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "kylo-rens-command-shuttle",
+    "name": "Kylo Ren's Command Shuttle",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/kylo-rens-command-shuttle.png",
+    "release_date": 2017,
+    "crew_members": 3
+  },
+  {
+    "id": "landos-millennium-falcon",
+    "name": "Lando's Millennium Falcon",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Scoundrel",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/landos-millennium-falcon.png",
+    "release_date": 2018,
+    "crew_members": 2
+  },
+  {
+    "id": "leviathan",
+    "name": "Leviathan",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "image": "/images/ships/leviathan.png",
+    "release_date": 2023,
+    "crew_members": 1
+  },
+  {
+    "id": "mg-100-starfortress-sf-17",
+    "name": "MG-100 StarFortress SF-17",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Resistance"
+    ],
+    "image": "/images/ships/mg-100-starfortress-sf-17.png",
+    "release_date": 2022,
+    "crew_members": 2
+  },
+  {
+    "id": "malevolence",
+    "name": "Malevolence",
+    "alignment": "Dark",
+    "role": "Capital Ship",
+    "factions": [
+      "Droid",
+      "Separatist"
+    ],
+    "image": "/images/ships/malevolence.png",
+    "release_date": 2019,
+    "crew_members": 1
+  },
+  {
+    "id": "marauder",
+    "name": "Marauder",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Clone Trooper",
+      "Galactic Republic"
+    ],
+    "image": "/images/ships/marauder.png",
+    "release_date": 2023,
+    "crew_members": 3
+  },
+  {
+    "id": "mark-vi-interceptor",
+    "name": "Mark VI Interceptor",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "image": "/images/ships/mark-vi-interceptor.png",
+    "release_date": 2023,
+    "crew_members": 1
+  },
+  {
+    "id": "negotiator",
+    "name": "Negotiator",
+    "alignment": "Light",
+    "role": "Capital Ship",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "image": "/images/ships/negotiator.png",
+    "release_date": 2019,
+    "crew_members": 1
+  },
+  {
+    "id": "outrider",
+    "name": "Outrider",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Cargo Ship",
+      "Rebel",
+      "Scoundrel",
+      "Smuggler"
+    ],
+    "image": "/images/ships/outrider.png",
+    "release_date": 2022,
+    "crew_members": 1
+  },
+  {
+    "id": "phantom-ii",
+    "name": "Phantom II",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel",
+      "Phoenix",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/phantom-ii.png",
+    "release_date": 2017,
+    "crew_members": 3
+  },
+  {
+    "id": "plo-koons-jedi-starfighter",
+    "name": "Plo Koon's Jedi Starfighter",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Galactic Republic",
+      "Jedi"
+    ],
+    "image": "/images/ships/plo-koons-jedi-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "poe-damerons-x-wing",
+    "name": "Poe Dameron's X-wing",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance"
+    ],
+    "image": "/images/ships/poe-damerons-x-wing.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "profundity",
+    "name": "Profundity",
+    "alignment": "Light",
+    "role": "Capital Ship",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/profundity.png",
+    "release_date": 2022,
+    "crew_members": 1
+  },
+  {
+    "id": "punishing-one",
+    "name": "Punishing One",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel"
+    ],
+    "image": "/images/ships/punishing-one.png",
+    "release_date": 2024,
+    "crew_members": 1
+  },
+  {
+    "id": "raddus",
+    "name": "Raddus",
+    "alignment": "Light",
+    "role": "Capital Ship",
+    "factions": [
+      "Resistance"
+    ],
+    "image": "/images/ships/raddus.png",
+    "release_date": 2020,
+    "crew_members": 1
+  },
+  {
+    "id": "ravens-claw",
+    "name": "Raven's Claw",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Jedi",
+      "Rebel"
+    ],
+    "image": "/images/ships/ravens-claw.png",
+    "release_date": 2022,
+    "crew_members": 1
+  },
+  {
+    "id": "razor-crest",
+    "name": "Razor Crest",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Cargo Ship",
+      "Scoundrel"
+    ],
+    "image": "/images/ships/razor-crest.png",
+    "release_date": 2021,
+    "crew_members": 1
+  },
+  {
+    "id": "rebel-b-wing",
+    "name": "Rebel B-wing",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/rebel-b-wing.png",
+    "release_date": 2025,
+    "crew_members": 1
+  },
+  {
+    "id": "rebel-y-wing",
+    "name": "Rebel Y-wing",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/rebel-y-wing.png",
+    "release_date": 2020,
+    "crew_members": 0
+  },
+  {
+    "id": "resistance-x-wing",
+    "name": "Resistance X-wing",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Resistance"
+    ],
+    "image": "/images/ships/resistance-x-wing.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "rexs-arc-170",
+    "name": "Rex's ARC-170",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Clone Trooper"
+    ],
+    "image": "/images/ships/rexs-arc-170.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "reys-millennium-falcon",
+    "name": "Rey's Millennium Falcon",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Resistance",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/reys-millennium-falcon.png",
+    "release_date": 2017,
+    "crew_members": 2
+  },
+  {
+    "id": "rogue-one",
+    "name": "Rogue One",
+    "alignment": "Light",
+    "role": "Support",
+    "factions": [
+      "Cargo Ship",
+      "Rebel",
+      "Rogue One"
+    ],
+    "image": "/images/ships/rogue-one.png",
+    "release_date": 2025,
+    "crew_members": 2
+  },
+  {
+    "id": "scimitar",
+    "name": "Scimitar",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Sith"
+    ],
+    "image": "/images/ships/scimitar.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "scythe",
+    "name": "Scythe",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire",
+      "Inquisitorius",
+      "Unaligned Force User"
+    ],
+    "image": "/images/ships/scythe.png",
+    "release_date": 2022,
+    "crew_members": 2
+  },
+  {
+    "id": "sith-fighter",
+    "name": "Sith Fighter",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Sith",
+      "Sith Empire"
+    ],
+    "image": "/images/ships/sith-fighter.png",
+    "release_date": 2018,
+    "crew_members": 1
+  },
+  {
+    "id": "slave-i",
+    "name": "Slave I",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel",
+      "Cargo Ship"
+    ],
+    "image": "/images/ships/slave-i.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "sun-facs-geonosian-starfighter",
+    "name": "Sun Fac's Geonosian Starfighter",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "Separatist",
+      "Geonosian"
+    ],
+    "image": "/images/ships/sun-facs-geonosian-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "tie-advanced-x1",
+    "name": "TIE Advanced x1",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Sith"
+    ],
+    "image": "/images/ships/tie-advanced-x1.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "tie-dagger",
+    "name": "TIE Dagger",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order",
+      "Sith"
+    ],
+    "image": "/images/ships/tie-dagger.png",
+    "release_date": 2023,
+    "crew_members": 1
+  },
+  {
+    "id": "tie-defender",
+    "name": "TIE Defender",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/tie-defender.png",
+    "release_date": 2023,
+    "crew_members": 1
+  },
+  {
+    "id": "tie-echelon",
+    "name": "TIE Echelon",
+    "alignment": "Dark",
+    "role": "Tank",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/tie-echelon.png",
+    "release_date": 2022,
+    "crew_members": 1
+  },
+  {
+    "id": "tie-reaper",
+    "name": "TIE Reaper",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Empire"
+    ],
+    "image": "/images/ships/tie-reaper.png",
+    "release_date": 2017,
+    "crew_members": 2
+  },
+  {
+    "id": "tie-silencer",
+    "name": "TIE Silencer",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "First Order"
+    ],
+    "image": "/images/ships/tie-silencer.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "tiein-interceptor-prototype",
+    "name": "TIE/IN Interceptor Prototype",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Empire",
+      "Inquisitorius"
+    ],
+    "image": "/images/ships/tiein-interceptor-prototype.png",
+    "release_date": 2022,
+    "crew_members": 1
+  },
+  {
+    "id": "umbaran-starfighter",
+    "name": "Umbaran Starfighter",
+    "alignment": "Light",
+    "role": "Tank",
+    "factions": [
+      "Galactic Republic",
+      "Clone Trooper"
+    ],
+    "image": "/images/ships/umbaran-starfighter.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "vulture-droid",
+    "name": "Vulture Droid",
+    "alignment": "Dark",
+    "role": "Attacker",
+    "factions": [
+      "Separatist",
+      "Droid"
+    ],
+    "image": "/images/ships/vulture-droid.png",
+    "release_date": 2019,
+    "crew_members": 0
+  },
+  {
+    "id": "wedge-antilless-x-wing",
+    "name": "Wedge Antilles's X-wing",
+    "alignment": "Light",
+    "role": "Attacker",
+    "factions": [
+      "Rebel"
+    ],
+    "image": "/images/ships/wedge-antilless-x-wing.png",
+    "release_date": 2017,
+    "crew_members": 1
+  },
+  {
+    "id": "xanadu-blood",
+    "name": "Xanadu Blood",
+    "alignment": "Dark",
+    "role": "Support",
+    "factions": [
+      "Bounty Hunter",
+      "Scoundrel"
+    ],
+    "image": "/images/ships/xanadu-blood.png",
+    "release_date": 2018,
+    "crew_members": 1
   }
 ]

@@ -19,14 +19,23 @@ Post Release improvements (not in order)
 8. create base_game.html template and extend wedgedle for future games
 9. fix midnight refresh causing answer to change when page is not refreshed
 
+
 v1 Feedback
+
+Logic/Bugs
+4. Fix Timer to reset at proper time
+5. Correct logic to determine answer (compare name values instead of category correctness)
+
+QoL
+2. Work on faction partial correctness ambiguity
+	2a. Faction is yellow even if certain elements are correct
+3. Add give up button
+6. Endless mode
+
+UI
 1. Adjust colors
 	1a. Green and Yellow too close
 	1b. Colors too transparent
 	1c. Incorrect should be gray or red
-2. Work on faction partial correctness ambiguity
-	2a. Faction is yellow even if certain elements are correct
-3. Add give up button
-4. Fix Timer to reset at proper time
-5. Correct logic to determine answer (compare name values instead of category correctness)
-6. Endless mode
+7. adjust font (capital i written as H)
+
