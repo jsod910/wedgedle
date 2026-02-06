@@ -1,11 +1,13 @@
 from enum import Enum
-import datetime
+from datetime import date
 import copy
 import json
 import hashlib
 from pathlib import Path
 
-GAME_START_DATE = datetime.date(2026,1,1)
+from utils.reset_time import get_game_day_index
+
+GAME_START_DATE = date(2026,1,1)
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATA_PATH = BASE_DIR / "data" / "ships.json";
 
@@ -50,8 +52,7 @@ class ShipdleGame:
         return name.strip().lower()
 
     def get_daily_ship(self):
-        today = datetime.date.today()
-        day_index = (today - GAME_START_DATE).days
+        day_index = get_game_day_index(GAME_START_DATE)
 
         if day_index < 0:
             day_index = 0
@@ -98,6 +99,12 @@ class ShipdleGame:
         
         return feedback
     
+    def check_answer(self, guess_id, target_id):
+        if target_id == guess_id:
+            return True
+
+        return False 
+    
     def check_guess(self, guess_name):
         target = self.get_daily_ship()
 
@@ -110,10 +117,13 @@ class ShipdleGame:
         
         canonical = self.lookup[user_input]
         guess = self.get_ship(canonical)
+
+        correct_guess = self.check_answer(guess["id"], target["id"])
         feedback = self.give_feedback(guess, target)
 
         return {
             "valid": True,
+            "correct_guess": correct_guess,
             "result": {k: v.value for k, v in feedback.items()},
             "guess_info": {
                 "name": canonical,

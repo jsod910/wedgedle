@@ -24,6 +24,7 @@ v1 Feedback
 
 Logic/Bugs
 4. Fix Timer to reset at proper time
+	notes: fixed reset timer to sync (need to test). slight clock skew maybe fix in future
 5. Correct logic to determine answer (compare name values instead of category correctness)
 
 QoL

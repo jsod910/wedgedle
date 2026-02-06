@@ -96,8 +96,7 @@
       const SEARCH_URL = "{{ url_for('wedgedle.search') }}";
       const ANSWER_URL = "{{ url_for('wedgedle.answer') }}";
       const IMAGE_URL = "{{ url_for('wedgedle.images') }}";
-
-      const IMAGE_PRELOAD = "{{ url_for('static', filename='data/characters.json') }}";
+      const TIMER_URL = "{{ url_for('wedgedle.reset_time') }}";
     </script>
     <script src="{{ url_for('static', filename='js/wedgedle.js') }}"></script>
     {% endblock %}

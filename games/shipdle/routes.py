@@ -1,5 +1,6 @@
 from flask import jsonify, request, render_template, Blueprint, url_for
 # import backend functions
+from utils.reset_time import get_next_reset, get_server_now
 from .shipdle import ShipdleGame
 
 shipdle_bp = Blueprint("shipdle", __name__)
@@ -8,6 +9,13 @@ game = ShipdleGame()
 # @shipdle_bp.route("/")
 # def index():
 #     return render_template("shipdle.html")
+
+@shipdle_bp.route("api/shipdle/reset_time")
+def reset_time():
+    return { 
+        "server_now": get_server_now().isoformat(),
+        "reset_time": get_next_reset().isoformat()
+    }
 
 @shipdle_bp.route("api/shipdle/search")
 def search():

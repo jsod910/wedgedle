@@ -155,7 +155,7 @@
       "Spectre",
       "Unaligned Force User"
     ],
-    "crew_member": true,
+    "crew_member": false,
     "leader": true,
     "era": "Apprentices",
     "release_date": "2024"
@@ -189,7 +189,7 @@
       "Galactic Republic",
       "Jedi"
     ],
-    "crew_member": false,
+    "crew_member": true,
     "leader": true,
     "era": "Legacy",
     "release_date": "2016"

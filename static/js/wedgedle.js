@@ -38,9 +38,7 @@ const endAnswer = document.getElementById("endgame-answer");
 const closeBtn = document.getElementById("endgame-close-btn");
 
 
-// preloadImages();
-startCountdown(document.getElementById("help-timer"));
-startCountdown(document.getElementById("end-timer"));
+getResetTime();
 
 helpDesc.textContent = gameDesc;
 for (const attr in HELP_CONTENT) {
@@ -193,8 +191,7 @@ function submitGuess() {
         container.prepend(row);
         animateBoxes(boxes, result);
 
-        const allCorrect = Object.values(result).every(v => v === "correct");
-        if(allCorrect) {
+        if(data.correct_guess) {
             showEndModal(true, guess_info.name, guess_info.info["image"], guess_info.info["alignment"]);
             guessButton.disabled = true;
             guessInput.disabled = true;
@@ -323,12 +320,23 @@ function showHelpModal() {
 function hideHelpModal() {
     helpOverlay.classList.add("hidden");
 }
-function getTimeUntilReset() {
-    const now = new Date();
-    const nextReset = new Date();
-    nextReset.setHours(24,0,0,0);
 
-    const diff = nextReset - now;
+async function getResetTime() {
+    const res = await fetch(TIMER_URL);
+    const data = await res.json();
+
+    SERVER_NOW = new Date(data.server_now);
+    RESET_AT = new Date(data.reset_time);
+    FETCHED_AT = Date.now();
+
+    TIMER_OFFSET = SERVER_NOW.getTime() - FETCHED_AT;
+
+    startCountdown(document.getElementById("help-timer"));
+    startCountdown(document.getElementById("end-timer"));
+}
+function getTimeUntilReset() {
+    const now = Date.now() + TIMER_OFFSET;
+    const diff = RESET_AT.getTime() - now;
 
     const hours = Math.floor(diff / (1000*60*60));
     const mins = Math.floor((diff / (1000*60) % 60));
@@ -351,14 +359,14 @@ function startCountdown(element) {
     setInterval(update, 1000);
 }
 
-async function preloadImages() {
-    fetch(IMAGE_URL)
-    .then(res => res.json())
-    .then(images => {
-        images.forEach(char_img => {
-            const img = new Image();
-            img.src = char_img;
-        });
-    });
-}
+// async function preloadImages() {
+//     fetch(IMAGE_URL)
+//     .then(res => res.json())
+//     .then(images => {
+//         images.forEach(char_img => {
+//             const img = new Image();
+//             img.src = char_img;
+//         });
+//     });
+// }
 

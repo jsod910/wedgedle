@@ -1,5 +1,6 @@
 from flask import jsonify, request, render_template, Blueprint, url_for
 # import backend functions
+from utils.reset_time import get_next_reset, get_server_now
 from .wedgedle import WedgedleGame
 
 wedgedle_bp = Blueprint("wedgedle", __name__)
@@ -8,6 +9,13 @@ game = WedgedleGame()
 # @wedgedle_bp.route("/")
 # def index():
 #     return render_template("wedgedle.html")
+
+@wedgedle_bp.route("api/wedgedle/reset_time")
+def reset_time():
+    return { 
+        "server_now": get_server_now().isoformat(),
+        "reset_time": get_next_reset().isoformat()
+    }
 
 @wedgedle_bp.route("api/wedgedle/search")
 def search():
@@ -34,7 +42,7 @@ def guess():
 
 @wedgedle_bp.route("api/wedgedle/answer")
 def answer():
-    character = game.get_daily_character();
+    character = game.get_daily_character()
 
     return jsonify({
         "id": character["id"],
