@@ -8,10 +8,12 @@
     {% block extra_css %}{% endblock %}
   </head>
 
-  <body>
+  <body data-game="{{ game_name | default('wedgedle') }}">
     
     {% block before_title %}{% endblock %}
-    <h1 id="game-title" class="game-title">Wedgedle</h1>
+    <h1 id="game-title" class="game-title">
+      {{ game_title | default("Wedgedle") }}
+    </h1>
     {% block after_title %}{% endblock %}
 
     <main class="content">

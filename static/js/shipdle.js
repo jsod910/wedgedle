@@ -17,6 +17,7 @@ const maxGuesses = 500;   // maximum guesses allowed
 
 // Get references to HTML
 // inputs
+const giveUp = document.getElementById("give-up-btn");
 const guessInput = document.getElementById("guess-input");
 const guessButton = document.getElementById("guess-button");
 const guessList = document.getElementById("guess-list");
@@ -62,6 +63,15 @@ helpOverlay.addEventListener("click", (e) => {
     }
 });
 
+giveUp.addEventListener("click", () => {
+    if(giveUp.disabled) {return;}
+    
+    handleLoss();
+    guessButton.disabled = true;
+    guessInput.disabled = true;
+    giveUp.disabled = true;
+    giveUp.classList.add("disabled")
+});
 guessButton.addEventListener("click", () => {
     guessList.innerHTML = "";
     guessList.classList.add("hidden");
@@ -261,13 +271,6 @@ function renderList(characters) {
     })
 }
 
-async function handleLoss() {
-    const res = await fetch(ANSWER_URL);
-    const answer = await res.json();
-
-    showEndModal(false, answer["name"], answer["image"], answer["alignment"]);
-}
-
 function animateBoxes(boxes, result) {
     console.log("func isAnimating: ",isAnimating);
     boxes.forEach((box, index) => {
@@ -287,11 +290,20 @@ function animateBoxes(boxes, result) {
     isAnimating = false;
 }
 
+async function handleLoss() {
+    const res = await fetch(ANSWER_URL);
+    const answer = await res.json();
+
+    showEndModal(false, answer["name"], answer["image"], answer["alignment"]);
+}
 function showEndModal(isWin, correctName, correctImg, alignment) {
-    endTitle.textContent = isWin ? "You Win!" : "Sorry, you lost.";
+    endTitle.textContent = isWin ? "You Win!" : "Nice Try";
     msgColor = isWin ? "win" : "loss";
     endTitle.classList.add(msgColor);
-    endGuessCnt.textContent = `You guessed today's Shipdle in ${guessCount} guesses.`;
+    endGuessCnt.textContent = isWin ? 
+        `You guessed today's Wedgedle in ${guessCount} guesses.` :
+        `Come back tomorrow to try again!`;
+    
     
     const endImg = document.createElement("img");
     endImg.src = correctImg;

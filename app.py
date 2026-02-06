@@ -12,7 +12,7 @@ app.register_blueprint(shipdle_bp, url_prefix="/shipdle")
 
 @app.route("/")
 def landing():
-    return render_template("landing.html")
+    return render_template("landing.html", game_name="wedgedle")
 
 @app.route("/games/wedgedle")
 def wedgedle():
@@ -20,7 +20,11 @@ def wedgedle():
 
 @app.route("/games/shipdle")
 def shipdle():
-    return render_template("shipdle.html")
+    return render_template(
+        "shipdle.html", 
+        game_title="Y-Wingdle",
+        game_name="shipdle"
+    )
 
 
 if __name__ == "__main__":

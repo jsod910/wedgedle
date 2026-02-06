@@ -29,7 +29,7 @@ Logic/Bugs
 
 QoL
 2. Work on faction partial correctness ambiguity
-	2a. Faction is yellow even if certain elements are correct
+	2a. Faction is yellow even if all elements are correct but missing other factions
 3. Add give up button
 6. Endless mode
 
