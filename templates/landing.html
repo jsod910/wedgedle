@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+{% endblock %}
+
+
+    {% block before_title %}
+    <div id="game-info" class="game-info">
+        <button id="" class="info-button btn"></button>
+        <button id="notes-button" class="info-button btn">?</button>
+    </div>
+    {% endblock %}
+    
+
+    {% block content %}
+    <div class="game-grid">
+        <a href="/games/wedgedle" class="game-square">
+            <img src="{{ url_for('static', filename='images/wedge_antilles.webp') }}" alt="?" class="Light">
+            <div class="game-square-desc">
+                <h2 class="game-square-header">Wedgedle</h2>
+                <div class="game-square-text">Daily Character Guessing Game</div>
+            </div>
+        </a>
+        <a href="/games/shipdle" class="game-square">
+            <img src="{{ url_for('static', filename='images/ships/wedge-antilless-x-wing.png') }}" alt="?" class="Light">
+            <div class="game-square-desc">
+                <h2 class="game-square-header">Shipdle</h2>
+                <div class="game-square-text">Daily Ship Guessing Game</div>
+            </div>
+        </a>
+    </div>
+
+    {% endblock %}
+
+    {% block scripts %}
+
+    {% endblock %}

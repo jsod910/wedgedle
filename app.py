@@ -10,17 +10,16 @@ CORS(app)
 app.register_blueprint(wedgedle_bp, url_prefix="/wedgedle")
 app.register_blueprint(shipdle_bp, url_prefix="/shipdle")
 
-# @app.route("/")
-# def landing():
-#     return render_template("wedgedle.html")
-
-# @app.route("/games/wedgedle")
-# def wedgedle():
-#     return render_template("wedgedle_index.html")
-
-
 @app.route("/")
 def landing():
+    return render_template("landing.html")
+
+@app.route("/games/wedgedle")
+def wedgedle():
+    return render_template("wedgedle.html")
+
+@app.route("/games/shipdle")
+def shipdle():
     return render_template("shipdle.html")
 
 

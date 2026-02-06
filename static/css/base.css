@@ -266,6 +266,8 @@ body {
     top: 20px;
     right: 20px;
     border-radius: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
 
     background-color: rgba(0, 180, 255, 0.05);
     background: repeating-linear-gradient(
