@@ -13,18 +13,21 @@ const HELP_CONTENT = {
 const gameDesc = "Guess the Star Wars: Galaxy of Heroes character."
 
 let guessCount = 0;
-let isAnimating = false;
-let isSubmitting = false;
 const maxGuesses = 500;   // maximum guesses allowed
+let gameOver = false;
+let gameMode = "daily";
+let gameID = null;
 
 // Get references to HTML
-// inputs
+// control buttons
+const changeModeBtn = document.getElementById("change-mode-btn");
 const giveUp = document.getElementById("give-up-btn");
+// inputs
 const guessInput = document.getElementById("guess-input");
 const guessButton = document.getElementById("guess-button");
 const guessList = document.getElementById("guess-list");
 // feedback
-const container = document.getElementById("guess-container");
+const guessContainer = document.getElementById("guess-container");
 // help modal
 const helpOverlay = document.getElementById("help-overlay");
 const helpDesc = document.getElementById("help-description");
@@ -40,6 +43,7 @@ const closeBtn = document.getElementById("endgame-close-btn");
 
 
 getResetTime();
+startGame();
 
 helpDesc.textContent = gameDesc;
 for (const attr in HELP_CONTENT) {
@@ -64,15 +68,23 @@ helpOverlay.addEventListener("click", (e) => {
         hideHelpModal();
     }
 });
+changeModeBtn.addEventListener('change', () => {
+    if(gameMode == "daily") switchMode("unlimited");
+    else switchMode("daily");
+});
 
 giveUp.addEventListener("click", () => {
-    if(giveUp.disabled) {return;}
+    if(gameOver && gameMode == "daily") return;
     
-    handleLoss();
-    guessButton.disabled = true;
-    guessInput.disabled = true;
-    giveUp.disabled = true;
-    giveUp.classList.add("disabled")
+    if(!gameOver) {
+        console.log("giving up")
+        handleLoss();
+        guessButton.disabled = true;
+        guessInput.disabled = true;
+    } else {
+        console.log("playing again")
+        resetGame();
+    }
 });
 guessButton.addEventListener("click", () => {
     guessList.innerHTML = "";
@@ -114,19 +126,21 @@ endOverlay.addEventListener("click", (e) => {
 
 // functions
 function submitGuess() {
-    console.log("sub isAnimating: ",isAnimating);
-    if(isSubmitting || isAnimating) return;
     const guess = guessInput.value.trim();
     if(!guess) return;
 
-    isSubmitting = true;
+    console.log("This is the game ID:",gameID);
 
     fetch(GUESS_URL, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({ guess: guess })
+        body: JSON.stringify({ 
+            guess: guess,
+            mode: gameMode,
+            game_id: gameID
+        })
     })
     .then(response => response.json())
     .then(data => {
@@ -134,11 +148,9 @@ function submitGuess() {
         if(!data.valid) {
             return;
         }
-        // if (isAnimating) return;
         console.log("starting submit");
         guessList.innerHTML = "";
         guessList.classList.add("hidden");
-        isAnimating = true;
 
         guessInput.value = "";
         guessInput.placeholder = "Enter character name";       
@@ -198,7 +210,7 @@ function submitGuess() {
             boxes.push(feedbackText);
         }
 
-        container.prepend(row);
+        guessContainer.prepend(row);
         animateBoxes(boxes, result);
 
         if(data.correct_guess) {
@@ -215,23 +227,41 @@ function submitGuess() {
             guessInput.disabled = true;
         }
         console.log("finished submit");
-        // isAnimating = false;
     })
     .catch(error => {
         console.error("Error:", error);
     })
     .finally(() => {
-        isSubmitting = false;
     })
 }
+
+async function startGame() {
+    const res = await fetch(START_URL, {
+        method: "POST",
+        body: JSON.stringify({ mode: gameMode }),
+        headers: { "Content-Type": "application/json" }
+    });
+
+    const data = await res.json();
+    gameID = data.game_id;
+    console.log(gameID);
+}
 function resetGame() {
+    startGame();
     guessCount = 0;
     guessButton.disabled = false;
     guessInput.disabled = false;
     hideEndModal();
 
-    container.innerHTML = "";
-    document.getElementById("cat-list").classList.add("hidden");
+    giveUp.textContent = "give up";
+    gameOver = false;
+
+    guessContainer.innerHTML = "";
+}
+async function switchMode(mode) {
+    if(mode === gameMode) return;
+    gameMode = mode;
+    resetGame();
 }
 
 function renderList(characters) {
@@ -274,7 +304,6 @@ function renderList(characters) {
 }
 
 function animateBoxes(boxes, result) {
-    console.log("func isAnimating: ",isAnimating);
     boxes.forEach((box, index) => {
         const attr = result;
         const resultClass = result[attr]
@@ -289,10 +318,17 @@ function animateBoxes(boxes, result) {
             }, 400);
         }, index * 600);
     });
-    isAnimating = false;
 }
 async function handleLoss() {
-    const res = await fetch(ANSWER_URL);
+    const res = await fetch(ANSWER_URL, {
+        method: "POST",
+        body: JSON.stringify({ 
+            mode: gameMode,
+            game_id: gameID        
+        }),
+        headers: { "Content-Type": "application/json" }
+    });
+
     const answer = await res.json();
 
     showEndModal(false, answer["name"], answer["image"], answer["alignment"]);
@@ -301,10 +337,17 @@ function showEndModal(isWin, correctName, correctImg, alignment) {
     endTitle.textContent = isWin ? "You Win!" : "Nice Try";
     msgColor = isWin ? "win" : "loss";
     endTitle.classList.add(msgColor);
-    endGuessCnt.textContent = isWin ? 
-        `You guessed today's Wedgedle in ${guessCount} guesses.` :
-        `Come back tomorrow to try again!`;
     
+    if(gameMode == "daily") {
+        endGuessCnt.textContent = isWin ? 
+            `You guessed today's Wedgedle in ${guessCount} guesses.` :
+            `Come back tomorrow to try again, or try UNLIMITED!`;
+    } else if(gameMode == "unlimited") {
+        endGuessCnt.textContent = isWin ? 
+            `You guessed this Wedgedle in ${guessCount} guesses.` :
+            ``;
+    }
+
     const endImg = document.createElement("img");
     endImg.src = correctImg;
     endImg.alt = "?";
@@ -319,10 +362,19 @@ function showEndModal(isWin, correctName, correctImg, alignment) {
     endAnswer.appendChild(endImg);
     endAnswer.appendChild(endMsg);
 
+    if(gameMode == "unlimited"){
+        giveUp.textContent = "play again";    
+    } // else {
+    //     giveUp.disabled = true;
+    // }
+    
+    gameOver = true;
+
     endOverlay.classList.remove("hidden");
 }
 function hideEndModal() {
     endOverlay.classList.add("hidden");
+    endAnswer.innerHTML = "";
 }
 function showHelpModal() {
     helpOverlay.classList.remove("hidden");

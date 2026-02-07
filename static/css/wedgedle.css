@@ -108,7 +108,7 @@
 .correct {
     background-color: #6aaa64;
     /* Background */
-    background: rgba(106, 170, 100, 0.15);
+    background: rgba(106, 170, 100, 0.35);
     box-shadow:
         0 0 8px rgba(106, 170, 100, 0.6),
         inset 0 0 8px rgba(106, 170, 100, 0.4);
@@ -116,13 +116,13 @@
     border-radius: 4px;
 }
 .partial {
-    background-color: #c9b458;
+    background-color: rgb(255, 234, 0);
     /* Background */
-    background: rgba(201, 180, 88, 0.15);
+    background: rgba(255, 234, 0, 0.35);
     box-shadow:
-        0 0 8px rgba(201, 180, 88, 0.6),
-        inset 0 0 8px rgba(201, 180, 88, 0.4);
-    border: 1px solid rgba(250, 250, 88, 0.6);
+        0 0 8px rgba(255, 234, 0, 0.6),
+        inset 0 0 8px rgba(255, 234, 0, 0.4);
+    border: 1px solid rgba(255, 234, 0, 0.6);
     border-radius: 4px;
 }
 .incorrect {

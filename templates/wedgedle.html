@@ -7,6 +7,13 @@
 
     {% block before_title %}
     <div id="game-info" class="game-info">
+      <div id="mode-switch" class="mode-switch">
+        <label id="mode-switcher" class="switch">
+          <input id="change-mode-btn" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <div id="mode-text" class="mode-text">unlimited</div>
+      </div>
       <button id="help-button" class="info-button btn">?</button>
     </div>
     {% endblock %}
@@ -24,6 +31,7 @@
         <div id="guess-list" class="guess-list hidden"></div>
       </div>
     </div>
+    
     
     <div id="game-container">
       <div id="cat-list" class="header-row">
@@ -93,6 +101,7 @@
 
     {% block scripts %}
     <script>
+      const START_URL = "{{ url_for('wedgedle.start') }}";
       const GUESS_URL = "{{ url_for('wedgedle.guess') }}";
       const SEARCH_URL = "{{ url_for('wedgedle.search') }}";
       const ANSWER_URL = "{{ url_for('wedgedle.answer') }}";

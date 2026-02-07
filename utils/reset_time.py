@@ -15,4 +15,6 @@ def get_next_reset():
 
 def get_game_day_index(start_date):
     today = get_server_now().date()
-    return (today - start_date).days
+    days = (today - start_date).days
+    print("Days: ",days)
+    return days

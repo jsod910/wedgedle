@@ -5,13 +5,14 @@ import copy
 import json
 import hashlib
 from pathlib import Path
+import random
+from uuid import uuid4
 
 from utils.reset_time import get_game_day_index
 
 GAME_START_DATE = date(2026,1,1)
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATA_PATH = BASE_DIR / "data" / "characters.json";
-
 
 # feedback
 class Result(Enum):
@@ -20,6 +21,8 @@ class Result(Enum):
     INCORRECT = "incorrect"
     HIGHER = "higher"
     LOWER = "lower"
+
+games = {}
 
 class WedgedleGame:
     def __init__(self):
@@ -48,6 +51,13 @@ class WedgedleGame:
                 return char
             
         return None
+    
+    def get_target(self, mode, game_id):
+        if mode == "daily":
+            return self.get_daily_character()
+        elif mode == "unlimited":
+            return self.get_character(games[game_id])
+        return {}
 
     def normalize(self, name):
         return name.strip().lower()
@@ -63,6 +73,14 @@ class WedgedleGame:
 
         idx = int(digest, 16) % len(self.characters)
         return self.characters[idx]
+
+    def start_unlimited_game(self):
+        game_id = uuid4().hex
+        target = random.choice(self.characters)
+
+        target_name = target["name"]
+        games[game_id] = target_name
+        return game_id
 
     # compare fields of guess and target
     def give_feedback(self, guess, target):
@@ -116,8 +134,9 @@ class WedgedleGame:
         return False 
 
     # core functionality
-    def check_guess(self, guess_name):
-        target = self.get_daily_character()
+    def check_guess(self, guess_name, mode, game_id):
+        # target = self.get_daily_character()
+        target = self.get_target(mode, game_id)
 
         user_input = self.normalize(guess_name)
         if user_input not in self.lookup:

@@ -17,6 +17,16 @@ def reset_time():
         "reset_time": get_next_reset().isoformat()
     }
 
+@wedgedle_bp.route("api/start", methods=["POST"])
+def start():
+    mode = request.json["mode"]
+
+    if mode == "unlimited":
+        game_id = game.start_unlimited_game()
+        return {"game_id": game_id}
+    
+    return {"game_id": 1}
+
 @wedgedle_bp.route("api/wedgedle/search")
 def search():
     query = request.args.get("q", "").lower()
@@ -34,15 +44,17 @@ def guess():
     if "guess" not in data:
         return jsonify({"error": "Missing guess"}), 400
     
-    result = game.check_guess(data["guess"])
+    result = game.check_guess(data["guess"], data["mode"], data["game_id"])
     img = result["guess_info"]["info"]["image"]
     result["guess_info"]["info"]["image"] = url_for("static", filename=img, _external=False)
 
     return jsonify(result)
 
-@wedgedle_bp.route("api/wedgedle/answer")
+@wedgedle_bp.route("api/wedgedle/answer", methods=["POST"])
 def answer():
-    character = game.get_daily_character()
+    data = request.get_json()
+
+    character = game.get_target(data["mode"], data["game_id"])
 
     return jsonify({
         "id": character["id"],
