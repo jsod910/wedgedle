@@ -6,6 +6,13 @@
 
 {% block before_title %}
     <div id="game-info" class="game-info">
+      <div id="mode-switch" class="mode-switch">
+        <label id="mode-switcher" class="switch">
+          <input id="change-mode-btn" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <div id="mode-text" class="mode-text">unlimited</div>
+      </div>
       <button id="help-button" class="info-button btn">?</button>
     </div>
 {% endblock %}
@@ -90,6 +97,7 @@
 
 {% block scripts %}
     <script>
+    const START_URL = "{{ url_for('shipdle.start') }}";
     const GUESS_URL = "{{ url_for('shipdle.guess') }}";
     const SEARCH_URL = "{{ url_for('shipdle.search') }}";
     const ANSWER_URL = "{{ url_for('shipdle.answer') }}";

@@ -20,9 +20,12 @@ class Result(Enum):
     PARTIAL = "partial"
     INCORRECT = "incorrect"
     HIGHER = "higher"
+    HIGHER_WITHIN = "h-within"
+    LOWER_WITHIN = "l-within"
     LOWER = "lower"
 
-games = {}
+daily_games = {}
+unlimited_games = {}
 
 class WedgedleGame:
     def __init__(self):
@@ -54,32 +57,38 @@ class WedgedleGame:
     
     def get_target(self, mode, game_id):
         if mode == "daily":
-            return self.get_daily_character()
+            if game_id not in daily_games:
+                daily_games[game_id] = self.get_daily_character(game_id)
+            return daily_games[game_id]
         elif mode == "unlimited":
-            return self.get_character(games[game_id])
+            return self.get_character(unlimited_games[game_id])
         return {}
 
     def normalize(self, name):
         return name.strip().lower()
 
-    def get_daily_character(self):
-        day_index = get_game_day_index(GAME_START_DATE)
-
-        if day_index < 0:
-            day_index = 0
-        
-        hash_input = f"wedgedle-{day_index}".encode("utf-8")
+    def get_daily_character(self, date_str):
+        hash_input = date_str.encode("utf-8")
         digest = hashlib.sha256(hash_input).hexdigest()
-
         idx = int(digest, 16) % len(self.characters)
         return self.characters[idx]
+        # day_index = get_game_day_index(GAME_START_DATE)
+
+        # if day_index < 0:
+        #     day_index = 0
+        
+        # hash_input = f"wedgedle-{day_index}".encode("utf-8")
+        # digest = hashlib.sha256(hash_input).hexdigest()
+
+        # idx = int(digest, 16) % len(self.characters)
+        # return self.characters[idx]
 
     def start_unlimited_game(self):
         game_id = uuid4().hex
         target = random.choice(self.characters)
 
         target_name = target["name"]
-        games[game_id] = target_name
+        unlimited_games[game_id] = target_name
         return game_id
 
     # compare fields of guess and target
@@ -113,18 +122,19 @@ class WedgedleGame:
         else:
             feedback["leader"] = Result.INCORRECT
         
-        # if guess["era"] == target["era"]:
-        #     feedback["era"] = Result.CORRECT
-        # else:
-        #     feedback["era"] = Result.INCORRECT
-
         if guess["release_date"] == target["release_date"]:
             feedback["release_date"] = Result.CORRECT
         elif guess["release_date"] > target["release_date"]:
-            feedback["release_date"] = Result.LOWER
+            if guess["release_date"] <= target["release_date"]+2:
+                feedback["release_date"] = Result.LOWER_WITHIN
+            else:
+                feedback["release_date"] = Result.LOWER
         elif guess["release_date"] < target["release_date"]:
-            feedback["release_date"] = Result.HIGHER
-        
+            if guess["release_date"] >= target["release_date"]-2:
+                feedback["release_date"] = Result.HIGHER_WITHIN
+            else:
+                feedback["release_date"] = Result.HIGHER
+
         return feedback
     
     def check_answer(self, guess_id, target_id):
@@ -135,7 +145,6 @@ class WedgedleGame:
 
     # core functionality
     def check_guess(self, guess_name, mode, game_id):
-        # target = self.get_daily_character()
         target = self.get_target(mode, game_id)
 
         user_input = self.normalize(guess_name)
@@ -148,6 +157,8 @@ class WedgedleGame:
         canonical = self.lookup[user_input]
         guess = self.get_character(canonical)
 
+        # print("Guess: ", guess)
+        # print("Target: ",target)
         correct_guess = self.check_answer(guess["id"], target["id"])
         feedback = self.give_feedback(guess, target)
 

@@ -132,26 +132,6 @@
     border: 2px solid rgba(136, 8, 8, 0.6);
     border-radius: 4px;
 }
-.lower {
-    background-color: rgb(255, 234, 0);
-    /* Background */
-    background: rgba(255, 234, 0, 0.35);
-    box-shadow:
-        0 0 8px rgba(255, 234, 0, 0.6),
-        inset 0 0 8px rgba(255, 234, 0, 0.4);
-    border: 1px solid rgba(255, 234, 0, 0.6);
-    border-radius: 4px;
-}
-.higher {
-    background-color: rgb(255, 234, 0);
-    /* Background */
-    background: rgba(255, 234, 0, 0.35);
-    box-shadow:
-        0 0 8px rgba(255, 234, 0, 0.6),
-        inset 0 0 8px rgba(255, 234, 0, 0.4);
-    border: 1px solid rgba(255, 234, 0, 0.6);
-    border-radius: 4px;
-}
 
 
 #help-description {

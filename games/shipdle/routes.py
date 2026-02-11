@@ -1,6 +1,6 @@
 from flask import jsonify, request, render_template, Blueprint, url_for
 # import backend functions
-from utils.reset_time import get_next_reset, get_server_now
+from utils.reset_time import get_next_reset, get_server_now, get_today_date
 from .shipdle import ShipdleGame
 
 shipdle_bp = Blueprint("shipdle", __name__)
@@ -16,6 +16,23 @@ def reset_time():
         "server_now": get_server_now().isoformat(),
         "reset_time": get_next_reset().isoformat()
     }
+
+@shipdle_bp.route("api/start", methods=["POST"])
+def start():
+    mode = request.json["mode"]
+
+    if mode == "unlimited":
+        game_id = game.start_unlimited_game()
+        result = {
+            "game_id": game_id,
+        }
+    elif mode == "daily":
+        game_id = get_today_date()
+        result = {
+            "game_id": game_id
+        }
+    
+    return result
 
 @shipdle_bp.route("api/shipdle/search")
 def search():
@@ -34,15 +51,17 @@ def guess():
     if "guess" not in data:
         return jsonify({"error": "Missing guess"}), 400
     
-    result = game.check_guess(data["guess"])
+    result = game.check_guess(data["guess"], data["mode"], data["game_id"])
     img = result["guess_info"]["info"]["image"]
     result["guess_info"]["info"]["image"] = url_for("static", filename=img, _external=False)
 
     return jsonify(result)
 
-@shipdle_bp.route("api/shipdle/answer")
+@shipdle_bp.route("api/shipdle/answer", methods=["POST"])
 def answer():
-    ship = game.get_daily_ship();
+    data = request.get_json()
+
+    ship = game.get_target(data["mode"], data["game_id"])
 
     return jsonify({
         "id": ship["id"],

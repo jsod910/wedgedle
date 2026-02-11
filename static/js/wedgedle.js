@@ -1,4 +1,4 @@
-console.log("Wedgedle JS loaded")
+console.log("Wedgedle JS loaded");
 
 // data structures
 const HELP_CONTENT = {
@@ -8,15 +8,17 @@ const HELP_CONTENT = {
     "Leader": "Does this character have a leader ability",
     "Release Era": "What in-game era was this character released",
     "Role": "What role does this character have in-game (Attacker, Tank, etc.)"
-}
+};
 
-const gameDesc = "Guess the Star Wars: Galaxy of Heroes character."
+const gameDesc = "Guess the Star Wars: Galaxy of Heroes character.";
+let countdownInterval = null;
 
 let guessCount = 0;
 const maxGuesses = 500;   // maximum guesses allowed
 let gameOver = false;
 let gameMode = "daily";
 let gameID = null;
+let didReset = false;
 
 // Get references to HTML
 // control buttons
@@ -41,6 +43,11 @@ const endGuessCnt = document.getElementById("endgame-guess-cnt");
 const endAnswer = document.getElementById("endgame-answer");
 const closeBtn = document.getElementById("endgame-close-btn");
 
+const cdElemList = [
+    document.getElementById("help-timer"), 
+    document.getElementById("end-timer")
+];
+const countdownElements = new Set(cdElemList);
 
 getResetTime();
 startGame();
@@ -185,7 +192,14 @@ function submitGuess() {
         const boxes = [];
         for(const attr in result) {
             const feedbackText = document.createElement("div");
-            feedbackText.className = `box ${result[attr]} hidden`;
+            if(result[attr] === "h-within" || result[attr] === "l-within") {
+                feedbackText.className = `box partial hidden`;
+            } else if(result[attr] === "higher" || result[attr] === "lower") {
+                feedbackText.className = `box incorrect hidden`;
+            } else {
+                feedbackText.className = `box ${result[attr]} hidden`;    
+            }
+            // feedbackText.className = `box ${result[attr]} hidden`;
 
             let value = guess_info.info[attr];
 
@@ -193,9 +207,9 @@ function submitGuess() {
                 value = value.join(", ");
             }
 
-            if(result[attr] === "higher") {
+            if(result[attr] === "higher" || result[attr] === "h-within") {
                 value += " ↑";
-            } else if (result[attr] === "lower") {
+            } else if (result[attr] === "lower" || result[attr] === "l-within") {
                 value += " ↓";
             }
 
@@ -257,6 +271,7 @@ function resetGame() {
     gameOver = false;
 
     guessContainer.innerHTML = "";
+    // document.getElementById("cat-list").classList.add("hidden");
 }
 async function switchMode(mode) {
     if(mode === gameMode) return;
@@ -389,16 +404,21 @@ async function getResetTime() {
 
     SERVER_NOW = new Date(data.server_now);
     RESET_AT = new Date(data.reset_time);
-    FETCHED_AT = Date.now();
+    console.log("ServerNow:",SERVER_NOW)
+    console.log("ResetTime:",RESET_AT)
+    FETCHED_AT = performance.now();
 
-    TIMER_OFFSET = SERVER_NOW.getTime() - FETCHED_AT;
-
-    startCountdown(document.getElementById("help-timer"));
-    startCountdown(document.getElementById("end-timer"));
+    // startCountdown(document.getElementById("help-timer"));
+    // startCountdown(document.getElementById("end-timer"));
+    startCountdown(countdownElements);
 }
 function getTimeUntilReset() {
-    const now = Date.now() + TIMER_OFFSET;
+    const elapsed = performance.now() - FETCHED_AT;
+    const now = SERVER_NOW.getTime() + elapsed;
     const diff = RESET_AT.getTime() - now;
+    // console.log("ResetAT:",RESET_AT);
+    // console.log("NowTime:",now);
+    // console.log("TimeDiff:",diff);
 
     const hours = Math.floor(diff / (1000*60*60));
     const mins = Math.floor((diff / (1000*60) % 60));
@@ -411,14 +431,27 @@ function formatCountdown( {hours, mins, secs} ) {
         `${mins.toString().padStart(2, "0")}:` +
         `${secs.toString().padStart(2, "0")}`;
 }
-function startCountdown(element) {
+function startCountdown(elements) {
+    if(countdownInterval !== null) clearInterval(countdownInterval);
+    
     function update() {
         const time = getTimeUntilReset();
-        element.textContent = formatCountdown(time);
+
+        if(time.hours < 0 && time.mins < 0 && time.secs < 0) {
+            // didReset = true;
+            getResetTime();
+            return;
+        }
+
+        const text = formatCountdown(time);
+        elements.forEach(e => {
+            e.textContent = text;
+        })
+        // element.textContent = formatCountdown(time);
     }
 
     update();
-    setInterval(update, 1000);
+    countdownInterval = setInterval(update, 1000);
 }
 
 // async function preloadImages() {

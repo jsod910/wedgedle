@@ -13,7 +13,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "4_lom",
@@ -30,7 +30,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Ships and Bounties",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "50r_t",
@@ -46,7 +46,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "arc_trooper",
@@ -63,7 +63,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "aayla_secura",
@@ -80,7 +80,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "admiral_ackbar",
@@ -95,7 +95,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "admiral_piett",
@@ -111,7 +111,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "admiral_raddus",
@@ -127,7 +127,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "admiral_trench",
@@ -142,7 +142,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "ahsoka_tano",
@@ -158,7 +158,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Apprentices",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "ahsoka_tano_fulcrum",
@@ -175,7 +175,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "ahsoka_tano_snips",
@@ -192,7 +192,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "amilyn_holdo",
@@ -207,7 +207,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "asajj_ventress",
@@ -224,7 +224,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "asajj_ventress_dark_disciple",
@@ -241,7 +241,7 @@
     "crew_member": false,
     "leader": true,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "aurra_sing",
@@ -258,7 +258,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "b1_battle_droid",
@@ -274,7 +274,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "b2_super_battle_droid",
@@ -290,7 +290,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "bb_8",
@@ -306,7 +306,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "bt_1",
@@ -322,7 +322,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "barriss_offee",
@@ -339,7 +339,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "bastila_shan",
@@ -355,7 +355,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "bastila_shan_fallen",
@@ -371,7 +371,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "batcher",
@@ -386,7 +386,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "baylan_skoll",
@@ -402,7 +402,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "baze_malbus",
@@ -419,7 +419,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ben_solo",
@@ -434,7 +434,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "biggs_darklighter",
@@ -450,7 +450,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "bistan",
@@ -467,7 +467,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "bo_katan_mandalor",
@@ -482,7 +482,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "bo_katan_kryze",
@@ -498,7 +498,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "boba_fett",
@@ -515,7 +515,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "boba_fett_scion_of_jango",
@@ -532,7 +532,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "bodhi_rook",
@@ -549,7 +549,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "boss_nass",
@@ -564,7 +564,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "bossk",
@@ -580,7 +580,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "boushh_leia_organa",
@@ -597,7 +597,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "brutus",
@@ -613,7 +613,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "c_3po",
@@ -631,7 +631,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "cc_1119_appo",
@@ -647,7 +647,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "cc_2224_cody",
@@ -663,7 +663,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ct_21_0408_echo",
@@ -680,7 +680,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ct_5555_fives",
@@ -697,7 +697,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ct_7567_rex",
@@ -714,7 +714,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "cx_2",
@@ -730,7 +730,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "cad_bane",
@@ -748,7 +748,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "cal_kestis",
@@ -763,7 +763,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "canderous_ordo",
@@ -781,7 +781,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "captain_drogan",
@@ -797,7 +797,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "captain_enoch",
@@ -812,7 +812,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "captain_han_solo",
@@ -828,7 +828,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "captain_ithano",
@@ -844,7 +844,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "captain_phasma",
@@ -859,7 +859,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "captain_rex",
@@ -877,7 +877,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "captain_silvo",
@@ -894,7 +894,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "captain_tarpals",
@@ -909,7 +909,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "cara_dune",
@@ -927,7 +927,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "carth_onasi",
@@ -942,7 +942,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "cassian_andor",
@@ -959,7 +959,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "cere_junda",
@@ -975,7 +975,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "chewbacca",
@@ -993,7 +993,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "chief_chirpa",
@@ -1008,7 +1008,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "chief_nebit",
@@ -1023,11 +1023,11 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "chirrut_imwe",
-    "name": "Chirrut \u00cemwe",
+    "name": "Chirrut Îmwe",
     "aliases": [],
     "image": "images/chirrut_imwe.webp",
     "alignment": "Light",
@@ -1040,7 +1040,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "chopper",
@@ -1058,7 +1058,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "clone_sergeant_phase_i",
@@ -1074,7 +1074,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "clone_wars_chewbacca",
@@ -1091,7 +1091,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "colonel_starck",
@@ -1107,7 +1107,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "commander_ahsoka_tano",
@@ -1124,7 +1124,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "commander_luke_skywalker",
@@ -1140,7 +1140,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "coruscant_underworld_police",
@@ -1155,7 +1155,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "count_dooku",
@@ -1171,7 +1171,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "crosshair_scarred",
@@ -1186,7 +1186,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "dark_trooper",
@@ -1204,7 +1204,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "dark_trooper_moff_gideon",
@@ -1220,7 +1220,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "darth_bane",
@@ -1235,7 +1235,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "darth_malak",
@@ -1251,7 +1251,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "darth_malgus",
@@ -1267,7 +1267,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "darth_maul",
@@ -1282,7 +1282,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "darth_nihilus",
@@ -1297,7 +1297,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "darth_revan",
@@ -1313,7 +1313,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "darth_sidious",
@@ -1328,7 +1328,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "darth_sion",
@@ -1343,7 +1343,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "darth_talon",
@@ -1358,7 +1358,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "darth_traya",
@@ -1373,7 +1373,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "darth_vader",
@@ -1389,7 +1389,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "darth_vader_duels_end",
@@ -1405,7 +1405,7 @@
     "crew_member": false,
     "leader": false,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "dash_rendar",
@@ -1422,7 +1422,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "dathcha",
@@ -1437,7 +1437,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "death_trooper",
@@ -1454,7 +1454,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "death_trooper_peridea",
@@ -1470,7 +1470,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "dengar",
@@ -1487,7 +1487,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "depa_billaba",
@@ -1504,7 +1504,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "director_krennic",
@@ -1519,7 +1519,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "disguised_clone_trooper",
@@ -1535,7 +1535,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "doctor_aphra",
@@ -1551,7 +1551,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "droideka",
@@ -1567,7 +1567,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "echo",
@@ -1584,7 +1584,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "eeth_koth",
@@ -1601,7 +1601,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "eighth_brother",
@@ -1618,7 +1618,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "embo",
@@ -1636,7 +1636,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "emperor_palpatine",
@@ -1652,7 +1652,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "enfys_nest",
@@ -1669,7 +1669,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "ewok_elder",
@@ -1684,7 +1684,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ewok_scout",
@@ -1699,7 +1699,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ezra_bridger",
@@ -1716,7 +1716,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "ezra_bridger_exile",
@@ -1732,7 +1732,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "fennec_shand",
@@ -1749,7 +1749,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "fifth_brother",
@@ -1766,7 +1766,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "finn",
@@ -1781,7 +1781,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "first_order_executioner",
@@ -1796,7 +1796,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "first_order_officer",
@@ -1811,7 +1811,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "first_order_sf_tie_pilot",
@@ -1826,7 +1826,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "first_order_stormtrooper",
@@ -1841,7 +1841,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "first_order_tie_pilot",
@@ -1856,7 +1856,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "gamorrean_guard",
@@ -1872,7 +1872,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "gar_saxon",
@@ -1888,7 +1888,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "garazeb_zeb_orrelios",
@@ -1904,7 +1904,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "general_grievous",
@@ -1920,7 +1920,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "general_hux",
@@ -1935,7 +1935,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "general_kenobi",
@@ -1951,7 +1951,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "general_skywalker",
@@ -1968,7 +1968,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "general_syndulla",
@@ -1983,7 +1983,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Apprentices",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "general_veers",
@@ -1999,7 +1999,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "geonosian_brood_alpha",
@@ -2015,7 +2015,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "geonosian_soldier",
@@ -2031,7 +2031,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "geonosian_spy",
@@ -2047,7 +2047,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "grand_admiral_thrawn",
@@ -2062,7 +2062,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "grand_inquisitor",
@@ -2079,7 +2079,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "grand_master_yoda",
@@ -2095,7 +2095,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "grand_moff_tarkin",
@@ -2110,7 +2110,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "great_mothers",
@@ -2125,7 +2125,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "greedo",
@@ -2142,7 +2142,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "greef_karga",
@@ -2158,7 +2158,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "gungan_boomadier",
@@ -2173,7 +2173,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "gungan_phalanx",
@@ -2188,7 +2188,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "hk_47",
@@ -2204,7 +2204,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "han_solo",
@@ -2222,7 +2222,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "hera_syndulla",
@@ -2238,7 +2238,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "hermit_yoda",
@@ -2253,7 +2253,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "hondo_ohnaka",
@@ -2271,7 +2271,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "hoth_rebel_scout",
@@ -2287,7 +2287,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "hoth_rebel_soldier",
@@ -2303,7 +2303,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "hunter",
@@ -2320,7 +2320,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "hunter_mercenary",
@@ -2336,7 +2336,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "huyang",
@@ -2352,7 +2352,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Apprentices",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "ig_100_magnaguard",
@@ -2368,7 +2368,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ig_11",
@@ -2384,7 +2384,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "ig_12_grogu",
@@ -2399,7 +2399,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "ig_86_sentinel_droid",
@@ -2414,7 +2414,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ig_88",
@@ -2431,7 +2431,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ig_90",
@@ -2448,7 +2448,7 @@
     "crew_member": false,
     "leader": true,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "iden_versio",
@@ -2464,7 +2464,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "ima_gun_di",
@@ -2481,7 +2481,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "imperial_probe_droid",
@@ -2497,7 +2497,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "imperial_super_commando",
@@ -2513,7 +2513,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "inquisitor_barriss",
@@ -2530,7 +2530,7 @@
     "crew_member": false,
     "leader": true,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "jabba_the_hutt",
@@ -2547,7 +2547,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "jango_fett",
@@ -2566,7 +2566,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "jar_jar_binks",
@@ -2581,7 +2581,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "jawa",
@@ -2596,7 +2596,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jawa_engineer",
@@ -2611,7 +2611,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jawa_scavenger",
@@ -2626,7 +2626,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jedi_consular",
@@ -2643,7 +2643,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jedi_knight_anakin",
@@ -2659,7 +2659,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jedi_knight_cal_kestis",
@@ -2675,7 +2675,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "jedi_knight_guardian",
@@ -2692,7 +2692,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "jedi_knight_luke_skywalker",
@@ -2707,7 +2707,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "jedi_knight_revan",
@@ -2723,7 +2723,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "jedi_master_kenobi",
@@ -2739,7 +2739,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "jedi_master_luke_skywalker",
@@ -2754,7 +2754,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "jedi_master_mace_windu",
@@ -2771,7 +2771,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "jocasta_nu",
@@ -2788,7 +2788,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "jolee_bindo",
@@ -2804,7 +2804,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "juhani",
@@ -2820,7 +2820,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "jyn_erso",
@@ -2837,7 +2837,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "k_2so",
@@ -2855,7 +2855,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "kanan_jarrus",
@@ -2872,7 +2872,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "kelleran_beq",
@@ -2889,7 +2889,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "ki_adi_mundi",
@@ -2905,7 +2905,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "kit_fisto",
@@ -2922,7 +2922,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "kix",
@@ -2939,7 +2939,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "krrsantan",
@@ -2958,7 +2958,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "kuiil",
@@ -2973,7 +2973,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "kyle_katarn",
@@ -2991,7 +2991,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "kylo_ren",
@@ -3007,7 +3007,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "kylo_ren_unmasked",
@@ -3023,7 +3023,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "l3_37",
@@ -3041,7 +3041,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "lando_calrissian",
@@ -3058,7 +3058,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "leia_organa",
@@ -3073,7 +3073,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "lobot",
@@ -3088,7 +3088,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "logray",
@@ -3103,7 +3103,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "lord_vader",
@@ -3119,7 +3119,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "luke_skywalker_farmboy",
@@ -3134,7 +3134,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "luminara_unduli",
@@ -3151,7 +3151,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "luthen_rael",
@@ -3167,7 +3167,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "mace_windu",
@@ -3183,7 +3183,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "magmatrooper",
@@ -3199,7 +3199,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "mara_jade_the_emperors_hand",
@@ -3215,7 +3215,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "marrok",
@@ -3232,7 +3232,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "master_qui_gon",
@@ -3248,7 +3248,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "maul",
@@ -3264,7 +3264,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "maul_hate_fueled",
@@ -3279,7 +3279,7 @@
     "crew_member": false,
     "leader": false,
     "era": "10th Anniversary",
-    "release_date": "2026"
+    "release_date": 2026
   },
   {
     "id": "maz_kanata",
@@ -3297,7 +3297,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "merrin",
@@ -3312,7 +3312,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "mission_vao",
@@ -3329,7 +3329,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "mob_enforcer",
@@ -3345,7 +3345,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "moff_gideon",
@@ -3362,7 +3362,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "mon_mothma",
@@ -3377,7 +3377,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "morgan_elsbeth",
@@ -3392,7 +3392,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "mother_talzin",
@@ -3407,7 +3407,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "night_trooper",
@@ -3423,7 +3423,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "nightsister_acolyte",
@@ -3438,7 +3438,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "nightsister_initiate",
@@ -3453,7 +3453,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "nightsister_spirit",
@@ -3468,7 +3468,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "nightsister_zombie",
@@ -3483,7 +3483,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "ninth_sister",
@@ -3500,7 +3500,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "nute_gunray",
@@ -3516,7 +3516,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "obi_wan_kenobi_old_ben",
@@ -3532,7 +3532,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "old_daka",
@@ -3547,7 +3547,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "omega",
@@ -3563,7 +3563,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "omega_fugitive",
@@ -3578,7 +3578,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "padawan_obi_wan",
@@ -3594,7 +3594,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "padawan_sabine_wren",
@@ -3611,11 +3611,11 @@
     "crew_member": false,
     "leader": false,
     "era": "Apprentices",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "padme_amidala",
-    "name": "Padm\u00e9 Amidala",
+    "name": "Padmé Amidala",
     "aliases": [],
     "image": "images/padme_amidala.webp",
     "alignment": "Light",
@@ -3626,7 +3626,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "pao",
@@ -3643,7 +3643,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "paploo",
@@ -3658,7 +3658,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "paz_vizsla",
@@ -3673,7 +3673,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "pirate_king_hondo_ohnaka",
@@ -3690,7 +3690,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "plo_koon",
@@ -3707,7 +3707,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "poe_dameron",
@@ -3722,7 +3722,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "poggle_the_lesser",
@@ -3738,7 +3738,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "princess_kneesaa",
@@ -3753,7 +3753,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "princess_leia",
@@ -3768,7 +3768,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "qira",
@@ -3785,7 +3785,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "queen_amidala",
@@ -3800,7 +3800,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "qui_gon_jinn",
@@ -3817,7 +3817,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "quiggold",
@@ -3833,7 +3833,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "r2_d2",
@@ -3851,7 +3851,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "rc_1262_scorch",
@@ -3867,7 +3867,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "range_trooper",
@@ -3883,7 +3883,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "rebel_officer_leia_organa",
@@ -3898,7 +3898,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "resistance_hero_finn",
@@ -3913,7 +3913,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "resistance_hero_poe",
@@ -3928,7 +3928,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "resistance_pilot",
@@ -3943,7 +3943,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "resistance_trooper",
@@ -3958,7 +3958,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "rey",
@@ -3974,7 +3974,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "rey_dark_side_vision",
@@ -3990,7 +3990,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Apprentices",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "rey_jedi_training",
@@ -4006,7 +4006,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "rey_scavenger",
@@ -4022,7 +4022,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "rose_tico",
@@ -4037,7 +4037,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "royal_guard",
@@ -4052,7 +4052,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "sm_33",
@@ -4069,7 +4069,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "stap",
@@ -4085,7 +4085,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "sabine_wren",
@@ -4102,7 +4102,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "sana_starros",
@@ -4120,7 +4120,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "satele_shan",
@@ -4136,7 +4136,7 @@
     "crew_member": false,
     "leader": true,
     "era": "10th Anniversary",
-    "release_date": "2026"
+    "release_date": 2026
   },
   {
     "id": "savage_opress",
@@ -4151,7 +4151,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "saw_gerrera",
@@ -4167,7 +4167,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "scarif_rebel_pathfinder",
@@ -4184,7 +4184,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "scout_trooper",
@@ -4201,7 +4201,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "second_sister",
@@ -4218,7 +4218,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "seventh_sister",
@@ -4235,7 +4235,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "shaak_ti",
@@ -4252,7 +4252,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "shin_hati",
@@ -4268,7 +4268,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2024"
+    "release_date": 2024
   },
   {
     "id": "shoretrooper",
@@ -4284,7 +4284,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "sith_assassin",
@@ -4300,7 +4300,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "sith_empire_trooper",
@@ -4316,7 +4316,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "sith_eternal_emperor",
@@ -4331,7 +4331,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "sith_marauder",
@@ -4347,7 +4347,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "sith_trooper",
@@ -4363,7 +4363,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "skiff_guard_lando_calrissian",
@@ -4380,7 +4380,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "snowtrooper",
@@ -4396,7 +4396,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "starkiller",
@@ -4411,7 +4411,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "stormtrooper",
@@ -4428,7 +4428,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "stormtrooper_han",
@@ -4444,7 +4444,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "stormtrooper_luke",
@@ -4459,7 +4459,7 @@
     "crew_member": false,
     "leader": true,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "sun_fac",
@@ -4475,7 +4475,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "supreme_leader_kylo_ren",
@@ -4491,7 +4491,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "t3_m4",
@@ -4507,7 +4507,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "tie_fighter_pilot",
@@ -4523,7 +4523,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "talia",
@@ -4538,7 +4538,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "tarfful",
@@ -4553,7 +4553,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "taron_malicos",
@@ -4568,7 +4568,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "tech",
@@ -4585,7 +4585,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "teebo",
@@ -4600,7 +4600,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "temple_guard",
@@ -4617,7 +4617,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Revenge of the Sith",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "the_armorer",
@@ -4632,7 +4632,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "the_mandalorian",
@@ -4649,7 +4649,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "the_mandalorian_beskar_armor",
@@ -4666,7 +4666,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "the_stranger",
@@ -4681,7 +4681,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Ships and Bounties",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "third_sister",
@@ -4698,7 +4698,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2022"
+    "release_date": 2022
   },
   {
     "id": "threepio_chewie",
@@ -4715,7 +4715,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2020"
+    "release_date": 2020
   },
   {
     "id": "tusken_chieftain",
@@ -4730,7 +4730,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "tusken_raider",
@@ -4745,7 +4745,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "tusken_shaman",
@@ -4760,7 +4760,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "tusken_warrior",
@@ -4775,7 +4775,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "urorrurrr",
@@ -4790,7 +4790,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "ugnaught",
@@ -4803,7 +4803,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "vandor_chewbacca",
@@ -4821,7 +4821,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "vane",
@@ -4837,7 +4837,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Piracy",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "veteran_smuggler_chewbacca",
@@ -4855,7 +4855,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "veteran_smuggler_han_solo",
@@ -4873,7 +4873,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "visas_marr",
@@ -4888,7 +4888,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "wampa",
@@ -4901,7 +4901,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2017"
+    "release_date": 2017
   },
   {
     "id": "wat_tambor",
@@ -4916,7 +4916,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2019"
+    "release_date": 2019
   },
   {
     "id": "wedge_antilles",
@@ -4932,7 +4932,7 @@
     "crew_member": true,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "wicket",
@@ -4947,7 +4947,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "wrecker",
@@ -4964,7 +4964,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2021"
+    "release_date": 2021
   },
   {
     "id": "wrecker_mercenary",
@@ -4980,7 +4980,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Cavalry",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "yoda_chewie",
@@ -4997,7 +4997,7 @@
     "crew_member": false,
     "leader": false,
     "era": "10th Anniversary",
-    "release_date": "2025"
+    "release_date": 2025
   },
   {
     "id": "young_han_solo",
@@ -5014,7 +5014,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "young_lando_calrissian",
@@ -5031,7 +5031,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "zaalbar",
@@ -5049,7 +5049,7 @@
     "crew_member": false,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2018"
+    "release_date": 2018
   },
   {
     "id": "zam_wesell",
@@ -5066,7 +5066,7 @@
     "crew_member": false,
     "leader": true,
     "era": "Legacy",
-    "release_date": "2016"
+    "release_date": 2016
   },
   {
     "id": "zorii_bliss",
@@ -5083,7 +5083,7 @@
     "crew_member": true,
     "leader": false,
     "era": "Legacy",
-    "release_date": "2023"
+    "release_date": 2023
   },
   {
     "id": "zuckuss",
@@ -5100,6 +5100,6 @@
     "crew_member": false,
     "leader": true,
     "era": "Ships and Bounties",
-    "release_date": "2025"
+    "release_date": 2025
   }
 ]

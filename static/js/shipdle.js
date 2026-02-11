@@ -1,4 +1,4 @@
-console.log("Shipdle JS loaded")
+console.log("Shipdle JS loaded");
 
 // data structures
 const HELP_CONTENT = {
@@ -6,18 +6,23 @@ const HELP_CONTENT = {
     "Crew Members": "How many crew members does this ship have",
     "Faction": "What faction(s) is this ship a part of (Empire, Jedi, etc.)",
     "Role": "What role does this character have in-game (Attacker, Tank, etc.)"
-}
+};
 
-const gameDesc = "Guess the Star Wars: Galaxy of Heroes ship."
+const gameDesc = "Guess the Star Wars: Galaxy of Heroes ship.";
+let countdownInterval = null;
 
 let guessCount = 0;
-let isAnimating = false;
-let isSubmitting = false;
 const maxGuesses = 500;   // maximum guesses allowed
+let gameOver = false;
+let gameMode = "daily";
+let gameID = null;
+let didReset = false;
 
 // Get references to HTML
-// inputs
+// control buttons
+const changeModeBtn = document.getElementById("change-mode-btn");
 const giveUp = document.getElementById("give-up-btn");
+// inputs
 const guessInput = document.getElementById("guess-input");
 const guessButton = document.getElementById("guess-button");
 const guessList = document.getElementById("guess-list");
@@ -36,8 +41,14 @@ const endGuessCnt = document.getElementById("endgame-guess-cnt");
 const endAnswer = document.getElementById("endgame-answer");
 const closeBtn = document.getElementById("endgame-close-btn");
 
+const cdElemList = [
+    document.getElementById("help-timer"), 
+    document.getElementById("end-timer")
+];
+const countdownElements = new Set(cdElemList);
 
 getResetTime();
+startGame();
 
 helpDesc.textContent = gameDesc;
 for (const attr in HELP_CONTENT) {
@@ -62,15 +73,23 @@ helpOverlay.addEventListener("click", (e) => {
         hideHelpModal();
     }
 });
+changeModeBtn.addEventListener('change', () => {
+    if(gameMode == "daily") switchMode("unlimited");
+    else switchMode("daily");
+});
 
 giveUp.addEventListener("click", () => {
-    if(giveUp.disabled) {return;}
+    if(gameOver && gameMode == "daily") return;
     
-    handleLoss();
-    guessButton.disabled = true;
-    guessInput.disabled = true;
-    giveUp.disabled = true;
-    giveUp.classList.add("disabled")
+    if(!gameOver) {
+        console.log("giving up")
+        handleLoss();
+        guessButton.disabled = true;
+        guessInput.disabled = true;
+    } else {
+        console.log("playing again")
+        resetGame();
+    }
 });
 guessButton.addEventListener("click", () => {
     guessList.innerHTML = "";
@@ -112,19 +131,19 @@ endOverlay.addEventListener("click", (e) => {
 
 // functions
 function submitGuess() {
-    console.log("sub isAnimating: ",isAnimating);
-    if(isSubmitting || isAnimating) return;
     const guess = guessInput.value.trim();
     if(!guess) return;
-
-    isSubmitting = true;
 
     fetch(GUESS_URL, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({ guess: guess })
+        body: JSON.stringify({ 
+            guess: guess,
+            mode: gameMode,
+            game_id: gameID
+        })
     })
     .then(response => response.json())
     .then(data => {
@@ -132,11 +151,9 @@ function submitGuess() {
         if(!data.valid) {
             return;
         }
-        // if (isAnimating) return;
         console.log("starting submit");
         guessList.innerHTML = "";
         guessList.classList.add("hidden");
-        isAnimating = true;
 
         guessInput.value = "";
         guessInput.placeholder = "Enter character name";       
@@ -171,7 +188,14 @@ function submitGuess() {
         const boxes = [];
         for(const attr in result) {
             const feedbackText = document.createElement("div");
-            feedbackText.className = `box ${result[attr]} hidden`;
+            if(result[attr] === "h-within" || result[attr] === "l-within") {
+                feedbackText.className = `box partial hidden`;
+            } else if(result[attr] === "higher" || result[attr] === "lower") {
+                feedbackText.className = `box incorrect hidden`;
+            } else {
+                feedbackText.className = `box ${result[attr]} hidden`;    
+            }
+            // feedbackText.className = `box ${result[attr]} hidden`;
 
             let value = guess_info.info[attr];
 
@@ -179,9 +203,9 @@ function submitGuess() {
                 value = value.join(", ");
             }
 
-            if(result[attr] === "higher") {
+            if(result[attr] === "higher" || result[attr] === "h-within") {
                 value += " ↑";
-            } else if (result[attr] === "lower") {
+            } else if (result[attr] === "lower" || result[attr] === "l-within") {
                 value += " ↓";
             }
 
@@ -213,23 +237,42 @@ function submitGuess() {
             guessInput.disabled = true;
         }
         console.log("finished submit");
-        // isAnimating = false;
     })
     .catch(error => {
         console.error("Error:", error);
     })
     .finally(() => {
-        isSubmitting = false;
     })
 }
+
+async function startGame() {
+    const res = await fetch(START_URL, {
+        method: "POST",
+        body: JSON.stringify({ mode: gameMode }),
+        headers: { "Content-Type": "application/json" }
+    });
+
+    const data = await res.json();
+    gameID = data.game_id;
+    console.log(gameID);
+}
 function resetGame() {
+    startGame();
     guessCount = 0;
     guessButton.disabled = false;
     guessInput.disabled = false;
     hideEndModal();
 
+    giveUp.textContent = "give up";
+    gameOver = false;
+
     container.innerHTML = "";
-    document.getElementById("cat-list").classList.add("hidden");
+    // document.getElementById("cat-list").classList.add("hidden");
+}
+async function switchMode(mode) {
+    if(mode === gameMode) return;
+    gameMode = mode;
+    resetGame();    
 }
 
 function renderList(characters) {
@@ -272,7 +315,6 @@ function renderList(characters) {
 }
 
 function animateBoxes(boxes, result) {
-    console.log("func isAnimating: ",isAnimating);
     boxes.forEach((box, index) => {
         const attr = result;
         const resultClass = result[attr]
@@ -287,11 +329,18 @@ function animateBoxes(boxes, result) {
             }, 400);
         }, index * 600);
     });
-    isAnimating = false;
 }
 
 async function handleLoss() {
-    const res = await fetch(ANSWER_URL);
+    const res = await fetch(ANSWER_URL, {
+        method: "POST",
+        body: JSON.stringify({ 
+            mode: gameMode,
+            game_id: gameID        
+        }),
+        headers: { "Content-Type": "application/json" }
+    });
+
     const answer = await res.json();
 
     showEndModal(false, answer["name"], answer["image"], answer["alignment"]);
@@ -300,10 +349,15 @@ function showEndModal(isWin, correctName, correctImg, alignment) {
     endTitle.textContent = isWin ? "You Win!" : "Nice Try";
     msgColor = isWin ? "win" : "loss";
     endTitle.classList.add(msgColor);
-    endGuessCnt.textContent = isWin ? 
-        `You guessed today's Wedgedle in ${guessCount} guesses.` :
-        `Come back tomorrow to try again!`;
-    
+    if(gameMode == "daily") {
+        endGuessCnt.textContent = isWin ? 
+            `You guessed today's Wedgedle in ${guessCount} guesses.` :
+            `Come back tomorrow to try again, or try UNLIMITED!`;
+    } else if(gameMode == "unlimited") {
+        endGuessCnt.textContent = isWin ? 
+            `You guessed this Wedgedle in ${guessCount} guesses.` :
+            ``;
+    }
     
     const endImg = document.createElement("img");
     endImg.src = correctImg;
@@ -319,10 +373,19 @@ function showEndModal(isWin, correctName, correctImg, alignment) {
     endAnswer.appendChild(endImg);
     endAnswer.appendChild(endMsg);
 
+    if(gameMode == "unlimited"){
+        giveUp.textContent = "play again";    
+    } // else {
+    //     giveUp.disabled = true;
+    // }
+    
+    gameOver = true;
+
     endOverlay.classList.remove("hidden");
 }
 function hideEndModal() {
     endOverlay.classList.add("hidden");
+    endAnswer.innerHTML = "";
 }
 function showHelpModal() {
     helpOverlay.classList.remove("hidden");
@@ -337,16 +400,21 @@ async function getResetTime() {
 
     SERVER_NOW = new Date(data.server_now);
     RESET_AT = new Date(data.reset_time);
-    FETCHED_AT = Date.now();
+    console.log("ServerNow:",SERVER_NOW)
+    console.log("ResetTime:",RESET_AT)
+    FETCHED_AT = performance.now();
 
-    TIMER_OFFSET = SERVER_NOW.getTime() - FETCHED_AT;
-
-    startCountdown(document.getElementById("help-timer"));
-    startCountdown(document.getElementById("end-timer"));
+    // startCountdown(document.getElementById("help-timer"));
+    // startCountdown(document.getElementById("end-timer"));
+    startCountdown(countdownElements);
 }
 function getTimeUntilReset() {
-    const now = Date.now() + TIMER_OFFSET;
+    const elapsed = performance.now() - FETCHED_AT;
+    const now = SERVER_NOW.getTime() + elapsed;
     const diff = RESET_AT.getTime() - now;
+    // console.log("ResetAT:",RESET_AT);
+    // console.log("NowTime:",now);
+    // console.log("TimeDiff:",diff);
 
     const hours = Math.floor(diff / (1000*60*60));
     const mins = Math.floor((diff / (1000*60) % 60));
@@ -359,14 +427,27 @@ function formatCountdown( {hours, mins, secs} ) {
         `${mins.toString().padStart(2, "0")}:` +
         `${secs.toString().padStart(2, "0")}`;
 }
-function startCountdown(element) {
+function startCountdown(elements) {
+    if(countdownInterval !== null) clearInterval(countdownInterval);
+    
     function update() {
         const time = getTimeUntilReset();
-        element.textContent = formatCountdown(time);
+
+        if(time.hours < 0 && time.mins < 0 && time.secs < 0) {
+            // didReset = true;
+            getResetTime();
+            return;
+        }
+
+        const text = formatCountdown(time);
+        elements.forEach(e => {
+            e.textContent = text;
+        })
+        // element.textContent = formatCountdown(time);
     }
 
     update();
-    setInterval(update, 1000);
+    countdownInterval = setInterval(update, 1000);
 }
 
 async function preloadImages() {

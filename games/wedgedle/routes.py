@@ -1,6 +1,6 @@
 from flask import jsonify, request, render_template, Blueprint, url_for
 # import backend functions
-from utils.reset_time import get_next_reset, get_server_now
+from utils.reset_time import get_next_reset, get_server_now, get_today_date
 from .wedgedle import WedgedleGame
 
 wedgedle_bp = Blueprint("wedgedle", __name__)
@@ -23,9 +23,16 @@ def start():
 
     if mode == "unlimited":
         game_id = game.start_unlimited_game()
-        return {"game_id": game_id}
+        result = {
+            "game_id": game_id,
+        }
+    elif mode == "daily":
+        game_id = get_today_date()
+        result = {
+            "game_id": game_id
+        }
     
-    return {"game_id": 1}
+    return result
 
 @wedgedle_bp.route("api/wedgedle/search")
 def search():

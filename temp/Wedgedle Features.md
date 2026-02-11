@@ -25,18 +25,18 @@ v1 Feedback
 Logic/Bugs
 4. Fix Timer to reset at proper time
 	notes: fixed reset timer to sync (need to test). slight clock skew maybe fix in future
-5. Correct logic to determine answer (compare name values instead of category correctness)
+~~5. Correct logic to determine answer (compare name values instead of category correctness)~~
 
 QoL
 2. Work on faction partial correctness ambiguity
 	2a. Faction is yellow even if all elements are correct but missing other factions
-3. Add give up button
-6. Endless mode
+~~3. Add give up button~~
+~~6. Endless mode~~
 
 UI
 1. Adjust colors
 	1a. Green and Yellow too close
 	1b. Colors too transparent
 	1c. Incorrect should be gray or red
-7. adjust font (capital i written as H)
+~~7. adjust font (capital i written as H)~~
 
