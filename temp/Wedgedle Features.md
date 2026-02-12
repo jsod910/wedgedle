@@ -23,8 +23,8 @@ Post Release improvements (not in order)
 v1 Feedback
 
 Logic/Bugs
-4. Fix Timer to reset at proper time
-	notes: fixed reset timer to sync (need to test). slight clock skew maybe fix in future
+~~4. Fix Timer to reset at proper time~~
+~~	notes: fixed reset timer to sync (need to test). slight clock skew maybe fix in future~~
 ~~5. Correct logic to determine answer (compare name values instead of category correctness)~~
 
 QoL
@@ -40,3 +40,13 @@ UI
 	1c. Incorrect should be gray or red
 ~~7. adjust font (capital i written as H)~~
 
+Final Touches
+1. Landing page description (patch notes, social media)
+2. back button to return to landing page from game pages
+3. Create Tab Icon
+
+
+Other Minor Bug Fixes/Changes
+• Reset Timer standardized across all machines. All games are set to reset when timer reaches 0 at 12:00am CST. Just refresh the page to access the next character.
+• "Give Up" button has been added to all modes. Press the button to reveal the answer. Unlimited mode turns into a "Play Again" after the game completes.
+• Correct answer logic has been corrected so each game will only have one unique correct character.

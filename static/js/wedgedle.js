@@ -2,12 +2,18 @@ console.log("Wedgedle JS loaded");
 
 // data structures
 const HELP_CONTENT = {
-    "Alignment": "Light Side, Dark Side, or Neutral",
-    "Ship": "is this character the pilot of a ship",
-    "Faction": "What faction(s) is this character a part of (Empire, Jedi, etc.)",
-    "Leader": "Does this character have a leader ability",
-    "Release Era": "What in-game era was this character released",
-    "Role": "What role does this character have in-game (Attacker, Tank, etc.)"
+    "Properties": {
+        "Alignment": "Light Side, Dark Side, or Neutral",
+        "Ship": "Is this character the pilot of a ship",
+        "Faction": "What faction(s) is this character a part of (Empire, Jedi, etc.)",
+        "Leader": "Does this character have a leader ability",
+        "Release Year": "What year was this character released",
+        "Role": "What role does this character have in-game (Attacker, Tank, etc.)"
+    },
+    "Feedback": {
+        "Higher(↑)/Lower(↓)": "Higher/Lower means the target's value is higher/lower than the guess's value",
+        "Higher/Lower Partial": "Boxes marked partially indicate the target's value is within 2 of the guess's value"
+    }
 };
 
 const gameDesc = "Guess the Star Wars: Galaxy of Heroes character.";
@@ -34,6 +40,7 @@ const guessContainer = document.getElementById("guess-container");
 const helpOverlay = document.getElementById("help-overlay");
 const helpDesc = document.getElementById("help-description");
 const helpSubtext = document.getElementById("help-subtext");
+const helpFeedbackSubtext = document.getElementById("feedback-subtext");
 const helpBtn = document.getElementById("help-button");
 const helpClose = document.getElementById("help-close-btn");
 // end game screen
@@ -53,8 +60,7 @@ getResetTime();
 startGame();
 
 helpDesc.textContent = gameDesc;
-for (const attr in HELP_CONTENT) {
-    // const row = document.createElement("div");
+for(const attr in HELP_CONTENT["Properties"]) {
 
     const attrHead = document.createElement("div");
     let cat = attr.replaceAll("_", " ");
@@ -62,12 +68,27 @@ for (const attr in HELP_CONTENT) {
     attrHead.classList.add("help-sub-header");
 
     const attrDesc = document.createElement("div");
-    attrDesc.textContent = HELP_CONTENT[attr];
+    attrDesc.textContent = HELP_CONTENT["Properties"][attr];
     attrDesc.classList.add("help-desc");
 
     attrHead.appendChild(attrDesc);
     helpSubtext.appendChild(attrHead);
 }
+for(const attr in HELP_CONTENT["Feedback"]) {
+
+    const attrHead = document.createElement("div");
+    let cat = attr.replaceAll("_", " ");
+    attrHead.textContent = `${cat}:`;
+    attrHead.classList.add("help-sub-header");
+
+    const attrDesc = document.createElement("div");
+    attrDesc.textContent = HELP_CONTENT["Feedback"][attr];
+    attrDesc.classList.add("help-desc");
+
+    attrHead.appendChild(attrDesc);
+    helpFeedbackSubtext.appendChild(attrHead);
+}
+
 helpBtn.addEventListener("click", showHelpModal);
 helpClose.addEventListener("click", hideHelpModal);
 helpOverlay.addEventListener("click", (e) => {
@@ -184,6 +205,7 @@ function submitGuess() {
         boxImg.src = guess_info.info["image"];
         boxImg.alt = "?";
         boxImg.loading = "lazy";
+        boxImg.title = `${guess_info.info["name"]}`
         boxImg.classList.add(`${guess_info.info["alignment"]}`);
         box.appendChild(boxImg);
         row.appendChild(box);

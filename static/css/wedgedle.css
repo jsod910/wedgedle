@@ -128,15 +128,10 @@
 .incorrect {
     background-color: rgba(0, 180, 255, 0.15);
 }
-.lower {
-    background-color: rgba(0, 180, 255, 0.15);
-}
-.higher {
-    background-color: rgba(0, 180, 255, 0.15);
-}
 
 
 #help-description {
+    font-family: 'Star Jedi';
     color: #000000;
     font-size: 20px;
     font-weight: 500;
@@ -149,11 +144,11 @@
     align-items: center;
 }
 .help-color-square {
-    width: 50%;
+    width: 50px;
     display: flex;
     flex-direction: column;
 
-    margin: 5px;
+    margin: 25px;
 }
 .help-color-example {
     width: 100%;
@@ -171,8 +166,10 @@
 }
 .help-color-desc {
     color: black;
-    font-family: 'Star Jedi', sans-serif;
+    /* font-family: 'Star Jedi', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    font-weight: 800;
 }
 
 

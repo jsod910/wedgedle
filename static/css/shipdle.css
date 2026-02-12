@@ -125,16 +125,18 @@
     border-radius: 4px;
 }
 .incorrect {
-    background-color: rgba(136, 8, 8, 0.35);
+    background-color: rgba(0, 180, 255, 0.15);
+    /* background-color: rgba(136, 8, 8, 0.35);
     box-shadow:
         0 0 8px rgba(136, 8, 8, 0.6),
         inset 0 0 8px rgba(136, 8, 8, 0.4);
     border: 2px solid rgba(136, 8, 8, 0.6);
-    border-radius: 4px;
+    border-radius: 4px; */
 }
 
 
 #help-description {
+    font-family: 'Star Jedi';
     color: #000000;
     font-size: 20px;
     font-weight: 500;
@@ -147,11 +149,11 @@
     align-items: center;
 }
 .help-color-square {
-    width: 50%;
+    width: 50px;
     display: flex;
     flex-direction: column;
 
-    margin: 5px;
+    margin: 25px;
 }
 .help-color-example {
     width: 100%;
@@ -169,8 +171,10 @@
 }
 .help-color-desc {
     color: black;
-    font-family: 'Star Jedi', sans-serif;
+    /* font-family: 'Star Jedi', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    font-weight: 800;
 }
 
 

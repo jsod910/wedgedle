@@ -6,6 +6,7 @@
 
 
     {% block before_title %}
+    <a href="/" class="back-arrow btn">←</a>
     <div id="game-info" class="game-info">
       <div id="mode-switch" class="mode-switch">
         <label id="mode-switcher" class="switch">
@@ -40,7 +41,7 @@
         <div class="header-box">Ship</div>
         <div class="header-box">Faction(s)</div>
         <div class="header-box">Leader</div>
-        <div class="header-box">Release Date</div>
+        <div class="header-box">Release Year</div>
         <div class="header-box">Role</div>
       </div>
 
@@ -75,7 +76,9 @@
         </div>
         
         <h4 id="help-properties" class="help-header">Properties</h4>
-        <div id="help-subtext"></div>
+        <div class="modal-subsect">
+          <div id="help-subtext"></div>
+        </div>
 
         <div id="help-feedback" class="help-header">Feedback</div>
         <div id="help-color-grid">
@@ -93,6 +96,9 @@
             <div class="help-color-example incorrect"></div>
             <div class="help-color-desc">incorrect</div>
           </div>
+        </div>
+        <div class="modal-subsect">
+          <div id="feedback-subtext"></div>
         </div>
       </div>
     </div>

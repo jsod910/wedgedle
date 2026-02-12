@@ -7,8 +7,15 @@
 
     {% block before_title %}
     <div id="game-info" class="game-info">
-        <button id="" class="info-button btn"></button>
-        <button id="notes-button" class="info-button btn">?</button>
+        <a href="https://discord.gg/gMCZNHBVc2" target="_blank" rel="noopener noreferrer" title="Join the Discord">
+            <div id="discord-button" class="info-button btn">
+                <img src="{{ url_for('static', filename='images/misc/discord.png') }}">
+            </div>
+        </a>
+        <!-- <button id="reddit-button" class="info-button btn"> -->
+            <!-- <img src="{{ url_for('static', filename='images/misc/reddit.png') }}"> -->
+        <!-- </button> -->
+        <!-- <button id="notes-button" class="info-button btn">?</button> -->
     </div>
     {% endblock %}
     
@@ -29,6 +36,15 @@
                 <div class="game-square-text">Daily Ship Guessing Game</div>
             </div>
         </a>
+    </div>
+
+    <div id="landing-intro" class="landing-intro">
+        <h2 id="intro-header">New Updates</h2>
+        <p id="intro-paragraph">
+            Y-Wingdle is live! Test your knowledge of SWGOH ships in the new mode.<br>
+            <br>UNLIMITED Mode is now available for both Wedgedle and Y-Wingdle. No more waiting for resets.<br>
+            <br>Have any feedback or new ideas? Join the discord (link in top right).<br>
+        </p>
     </div>
 
     {% endblock %}

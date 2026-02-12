@@ -110,18 +110,23 @@ class ShipdleGame:
         else:
             feedback["factions"] = Result.INCORRECT
 
+        
         if guess["crew_members"] == target["crew_members"]:
             feedback["crew_members"] = Result.CORRECT
-        elif guess["crew_members"] > target["crew_members"]:
-            if guess["crew_members"] <= target["crew_members"]+1:
-                feedback["crew_members"] = Result.LOWER_WITHIN
-            else:
-                feedback["crew_members"] = Result.LOWER
-        elif guess["crew_members"] < target["crew_members"]:
-            if guess["crew_members"] >= target["crew_members"]-1:
-                feedback["crew_members"] = Result.HIGHER_WITHIN
-            else:
-                feedback["crew_members"] = Result.HIGHER
+        else:
+            feedback["crew_members"] = Result.INCORRECT
+        # if guess["crew_members"] == target["crew_members"]:
+        #     feedback["crew_members"] = Result.CORRECT
+        # elif guess["crew_members"] > target["crew_members"]:
+        #     if guess["crew_members"] <= target["crew_members"]+1:
+        #         feedback["crew_members"] = Result.LOWER_WITHIN
+        #     else:
+        #         feedback["crew_members"] = Result.LOWER
+        # elif guess["crew_members"] < target["crew_members"]:
+        #     if guess["crew_members"] >= target["crew_members"]-1:
+        #         feedback["crew_members"] = Result.HIGHER_WITHIN
+        #     else:
+        #         feedback["crew_members"] = Result.HIGHER
 
         if guess["release_date"] == target["release_date"]:
             feedback["release_date"] = Result.CORRECT
