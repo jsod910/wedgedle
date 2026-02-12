@@ -78,5 +78,5 @@ def images():
         for img in imgs
     ])
 
-if __name__ == "__main__":
-    shipdle_bp.run(debug=True)
+# if __name__ == "__main__":
+#     shipdle_bp.run(debug=True)
