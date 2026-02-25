@@ -14,13 +14,30 @@ const HELP_CONTENT = {
         "Higher/Lower Partial": "Boxes marked partially indicate the target's value is within 2 of the guess's value"
     }
 };
+const ATTR_FEEDBACK = {
+    "correct": "correct",
+    "incorrect": "incorrect",
+    "partial": "partial",
+    "h-within": "partial",
+    "l-within": "partial",
+    "higher": "incorrect",
+    "lower": "incorrect"
+};
+const FEEDBACK_COLOR_MAP = {
+    "correct": "🟩",
+    "partial": "🟨",
+    "incorrect": "⬛",
+}
+feedbackHistory = [];
 
 const gameDesc = "Guess the Star Wars: Galaxy of Heroes ship.";
 let countdownInterval = null;
 
 let guessCount = 0;
 const maxGuesses = 500;   // maximum guesses allowed
+const numShareGrids = 8;
 let gameOver = false;
+let gameWon = false;
 let gameMode = "daily";
 let gameID = null;
 let didReset = false;
@@ -48,6 +65,7 @@ const endTitle = document.getElementById("endgame-title");
 const endGuessCnt = document.getElementById("endgame-guess-cnt");
 const endAnswer = document.getElementById("endgame-answer");
 const closeBtn = document.getElementById("endgame-close-btn");
+const shareBtns = document.querySelectorAll(".share-btn");
 
 const cdElemList = [
     document.getElementById("help-timer"), 
@@ -104,12 +122,12 @@ giveUp.addEventListener("click", () => {
     if(gameOver && gameMode == "daily") return;
     
     if(!gameOver) {
-        console.log("giving up")
+        console.log("giving up");
         handleLoss();
         guessButton.disabled = true;
         guessInput.disabled = true;
     } else {
-        console.log("playing again")
+        console.log("playing again");
         resetGame();
     }
 });
@@ -148,6 +166,12 @@ endOverlay.addEventListener("click", (e) => {
     if(e.target === endOverlay) {
         hideEndModal();
     }
+});
+shareBtns.forEach(button => {
+    button.addEventListener("click", () => {
+        const shareMsg = getShareMsg();
+        handleShare(shareMsg);
+    });
 });
 
 
@@ -209,6 +233,7 @@ function submitGuess() {
 
         // shows guess info with correctness
         const boxes = [];
+        const feedbackRow = [];
         for(const attr in result) {
             const feedbackText = document.createElement("div");
             if(result[attr] === "h-within" || result[attr] === "l-within") {
@@ -218,7 +243,6 @@ function submitGuess() {
             } else {
                 feedbackText.className = `box ${result[attr]} hidden`;    
             }
-            // feedbackText.className = `box ${result[attr]} hidden`;
 
             let value = guess_info.info[attr];
 
@@ -241,12 +265,17 @@ function submitGuess() {
             feedbackText.textContent = value;
             row.appendChild(feedbackText);
             boxes.push(feedbackText);
+
+            shareSquareColor = ATTR_FEEDBACK[result[attr]];
+            feedbackRow.push(shareSquareColor);
         }
 
         container.prepend(row);
         animateBoxes(boxes, result);
+        feedbackHistory.unshift(feedbackRow);
 
         if(data.correct_guess) {
+            gameWon = true;
             showEndModal(true, guess_info.name, guess_info.info["image"], guess_info.info["alignment"]);
             guessButton.disabled = true;
             guessInput.disabled = true;
@@ -282,12 +311,18 @@ async function startGame() {
 function resetGame() {
     startGame();
     guessCount = 0;
+    gameWon = false;
+    gameOver = false;
+
     guessButton.disabled = false;
     guessInput.disabled = false;
     hideEndModal();
 
     giveUp.textContent = "give up";
-    gameOver = false;
+    giveUp.classList.remove("hidden")
+    shareBtns.forEach(button => {
+        button.classList.add("hidden");
+    });
 
     container.innerHTML = "";
     // document.getElementById("cat-list").classList.add("hidden");
@@ -336,7 +371,6 @@ function renderList(characters) {
         // console.log("list rendered");
     })
 }
-
 function animateBoxes(boxes, result) {
     boxes.forEach((box, index) => {
         const attr = result;
@@ -352,6 +386,39 @@ function animateBoxes(boxes, result) {
             }, 400);
         }, index * 600);
     });
+}
+
+async function handleShare(shareMsg) {
+    const shareData = {
+        title: 'Daily Shipdle',
+        text: shareMsg
+        // url: 'https://wedgedle.com'
+    };
+
+    if(navigator.share) {
+        console.log("Data Shared Successfully");
+        try {
+            await navigator.share(shareData);
+        } catch(err) {
+            console.log("Share Cancelled");
+        }
+    } else {
+        await navigator.clipboard.writeText(shareMsg);
+        alert("Copied to clipboard");
+    }
+}
+function getShareMsg() {
+    if(gameWon) {shareMsg = `Check out my Daily Y-Wingdle\nI won in ${guessCount} guesses\n`;}
+    else {shareMsg = `Check out my Daily Y-Wingdle\nI gave up with ${guessCount} guesses\n`;}
+    
+    for(i = 0; i < numShareGrids && i < feedbackHistory.length; i++) {
+        shareMsg += "\n";
+        feedbackHistory[i].forEach(feedback => {
+            shareMsg += FEEDBACK_COLOR_MAP[feedback];
+        })
+    }
+    shareMsg += "\n\nhttps://wedgedle.com";
+    return shareMsg;
 }
 
 async function handleLoss() {
@@ -398,6 +465,11 @@ function showEndModal(isWin, correctName, correctImg, alignment) {
 
     if(gameMode == "unlimited"){
         giveUp.textContent = "play again";    
+    } else if(gameMode == "daily") {
+        giveUp.classList.add("hidden");
+        shareBtns.forEach(button => {
+            button.classList.remove("hidden");
+        });
     } // else {
     //     giveUp.disabled = true;
     // }

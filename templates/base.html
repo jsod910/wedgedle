@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Daily Wedgedle - Guess today's SWGOH character">
+    
+    <meta property="og:title" content="Daily Wedgedle" />
+    <meta property="og:description" content="Can you guess today's SWGOH character?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://wedgedle.com" />
+    <meta property="og:image" content="https://wedgedle.com/static/images/misc/preview.png" />
+
     <title>{% block title %}Wedgedle{% endblock %}</title>
 
+    <link rel="icon" href="{{ url_for('static', filename='images/misc/favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     {% block extra_css %}{% endblock %}
   </head>
