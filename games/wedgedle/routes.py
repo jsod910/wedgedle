@@ -52,8 +52,10 @@ def guess():
         return jsonify({"error": "Missing guess"}), 400
     
     result = game.check_guess(data["guess"], data["mode"], data["game_id"])
-    img = result["guess_info"]["info"]["image"]
-    result["guess_info"]["info"]["image"] = url_for("static", filename=img, _external=False)
+
+    if result["valid"] is True:
+        img = result["guess_info"]["info"]["image"]
+        result["guess_info"]["info"]["image"] = url_for("static", filename=img, _external=False)
 
     return jsonify(result)
 
