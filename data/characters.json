@@ -1838,7 +1838,7 @@
     "factions": [
       "First Order"
     ],
-    "crew_member": false,
+    "crew_member": true,
     "leader": false,
     "era": "Legacy",
     "release_date": 2016
