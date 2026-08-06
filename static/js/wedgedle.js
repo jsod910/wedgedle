@@ -392,23 +392,33 @@ function animateBoxes(boxes, result) {
 }
 
 async function handleShare(shareMsg) {
-    const shareData = {
-        title: 'Daily Wedgedle',
-        text: shareMsg
-        // url: 'https://wedgedle.com'
-    };
+    navigator.clipboard.writeText(shareMsg).then(() => {
+        const toast = document.getElementById('clipboard-copy-toast');
+        toast.className = 'toast-visible';
 
-    if(navigator.share) {
-        console.log("Data Shared Successfully");
-        try {
-            await navigator.share(shareData);
-        } catch(err) {
-            console.log("Share Cancelled");
-        }
-    } else {
-        await navigator.clipboard.writeText(shareMsg);
-        alert("Copied to clipboard");
-    }
+        setTimeout(() => {
+            toast.className = 'toast-hidden';
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
+
+    // const shareData = {
+    //     title: 'Daily Wedgedle',
+    //     text: shareMsg
+    //     // url: 'https://wedgedle.com'
+    // };
+    // if(navigator.share) {
+    //     console.log("Data Shared Successfully");
+    //     try {
+    //         await navigator.share(shareData);
+    //     } catch(err) {
+    //         console.log("Share Cancelled");
+    //     }
+    // } else {
+    //     await navigator.clipboard.writeText(shareMsg);
+    //     alert("Copied to clipboard");
+    // }
 }
 function getShareMsg() {
     if(gameWon) {shareMsg = `Check out my Daily Wedgedle\nI won in ${guessCount} guesses\n`;}

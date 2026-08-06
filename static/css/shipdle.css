@@ -198,3 +198,28 @@
     border-radius: 50%;
     object-fit: contain;
 }
+
+#clipboard-copy-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  z-index: 1000;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.toast-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 20px) !important; /* Slide down slightly when hidden */
+}
+/* Visible state */
+.toast-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
